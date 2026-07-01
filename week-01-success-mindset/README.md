@@ -85,11 +85,11 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+**Change is inevitable, but choosing to grow from it is a personal decision**, and I believe **adaptability** is one of the most valuable skills anyone can develop.
 
 ### Evidence from my life
 
-Add your answer here...
+After losing a well-paying job, I endured years of uncertainty and several unsuccessful ventures before discovering an online **Full Stack Development** bootcamp. Although I already had experience in **IT Support**, I embraced the challenge, persevering through an intensive program filled with demanding coursework and countless sleepless nights. My dedication paid off when I completed the bootcamp and was offered a job by the program convener, bringing an end to a **six-year period of unemployment**. That experience reinforced my belief that **resilience, continuous learning, and adaptability** have the power to transform setbacks into opportunities and unlock new possibilities for growth.
 
 ---
 
@@ -97,11 +97,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Learning does not end with formal education or a job title; it is an ongoing commitment.
 
 ### Evidence from my life
 
-Add your answer here...
+Individuals who wish to remain at the forefront of their respective fields must actively engage in ongoing learning, cultivate curiosity, and consistently enhance their knowledge and skills. This principle has become evident to me in my current role, where I have been entrusted with diverse responsibilities that encourage my growth.
 
 ---
 
@@ -109,11 +109,13 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Certifications are valuable, but they are not a substitute for practical experience.
 
 ### Evidence from my life
 
-Add your answer here...
+True expertise is developed by applying knowledge in real-world environments, solving complex problems, learning from setbacks, and adapting to diverse roles and responsibilities. While certifications validate foundational knowledge, experience is what transforms that knowledge into practical competence.
+
+When I earned my first AWS certification—the AWS Certified Cloud Practitioner—I initially believed I had a solid understanding of DevOps. As I gained hands-on experience, however, I realised that the field is far broader and deeper than any single certification can capture.
 
 ---
 
