@@ -221,7 +221,7 @@ It's a declaration of the future I'm intentionally building—one day, one proje
 
 Paste your link here:
 
-https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-share-7478823904011128833-ooO6/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI
+[LinkedIn Post](https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-activity-7478823905214853122-6Dsp?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI)
 
 ---
 
@@ -281,9 +281,9 @@ Choose books that improve:
 
 1. **Atomic Habits — James Clear** ![Assignment 5 Screenshot](screenshots/week-01-screenshot-02.png)
 2. **Deep Work — Cal Newport**
-4. **Mindset — Carol S. Dweck**
-5. **Lateral Thinking — Edward de Bono**
-5. **How to Win Friends and Influence People — Dale Carnegie** 
+3. **Mindset — Carol S. Dweck**
+4. **Lateral Thinking — Edward de Bono**
+5. **How to Win Friends and Influence People — Dale Carnegie**
    ![Assignment 5 Screenshot](screenshots/week-01-screenshot-04.jpg)
 6. **So Good They Can't Ignore You — Cal Newport**
 7. **Extreme Ownership — Jocko Willink & Leif Babin**
@@ -533,13 +533,18 @@ This habit will help ensure your portfolio, GitHub, blog, and professional reput
 
 Paste your LinkedIn post link here:
 
-`__________________________`
+[LinkedIn Post](https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-activity-7478910893507141633-HHOv?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI)
 
 ---
 
 ## 10. Proof of Work
 
-* LinkedIn Post URL: **https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-share-7478823904011128833-ooO6/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI**  
+* LinkedIn Post URL:
+  
+  [LinkedIn Post 1](https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-activity-7478910893507141633-HHOv?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI)
+
+  [LinkedIn Post 2](https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-activity-7478823905214853122-6Dsp?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI)
+  
 * Blog / Medium : **ADD LINK HERE**  
 
 ---
