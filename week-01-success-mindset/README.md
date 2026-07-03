@@ -163,17 +163,67 @@ Write as if a journalist is writing about you **3 to 7 years from now** (not 20 
 
 Include this line:
 
-> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).**
+> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( <https://discord.pravinmishra.com/> ).**
 
 ## Your Article
 
-Add your answer here...
+## My Vision 2.0
+
+Five years passed faster than I imagined.
+
+The version of myself I once visualized became reality—not because of luck, but because of the small, consistent decisions made every single day.
+
+I **built** secure, scalable, and resilient cloud solutions that solved real business problems.
+
+I **led** cloud infrastructure and DevOps initiatives that improved reliability, security, and operational efficiency.
+
+I **shipped** production-ready solutions that organizations trusted to support their critical workloads.
+
+I **earned** industry-recognized certifications, but more importantly, I proved my skills by building real projects and solving real challenges.
+
+I **published** technical blogs, project documentation, and learning resources that helped engineers grow in their careers.
+
+My **GitHub portfolio** became a collection of practical solutions that demonstrated my ability to design, automate, deploy, and monitor modern cloud infrastructure.
+
+I **contributed** to the technology community through mentoring, knowledge sharing, open-source projects, and technical presentations.
+
+I **led** with integrity, communicated with clarity, and earned the trust of colleagues, clients, and the teams I served.
+
+I remained a lifelong learner, adapting as technology evolved and embracing every challenge as an opportunity to grow.
+
+Looking back, the greatest achievement wasn't the certifications, the projects, or the promotions.
+
+It was the person I became through the journey.
+
+Every early morning study session...
+
+Every difficult project...
+
+Every setback...
+
+Every lesson...
+
+Every line of code...
+
+Every conversation...
+
+Every act of consistency shaped the professional and the person I had envisioned years earlier.
+
+This post isn't a celebration of something that has already happened.
+
+It's a declaration of the future I'm intentionally building—one day, one project, and one decision at a time.
+
+**What's one decision you're making today that your future self will thank you for?**
+
+> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( <https://discord.pravinmishra.com/> ).**
+
+![Assignment 3 Screenshot](screenshots/week-01-screenshot-01.png)
 
 ### Public Link
 
 Paste your link here:
 
-`__________________________`
+`____________________https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-share-7478823904011128833-ooO6/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI______`
 
 ---
 
@@ -205,7 +255,7 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+**Yes!** I was left with a heavy sense of guilt, shame, and regret.
 
 ---
 
@@ -231,16 +281,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. **Atomic Habits — James Clear**
+2. **Deep Work — Cal Newport**
+3. **Mindset — Carol S. Dweck**
+4. **Lateral Thinking — Edward de Bono**
+5. **How to Win Friends and Influence People — Dale Carnegie**
+6. **So Good They Can't Ignore You — Cal Newport**
+7. **Extreme Ownership — Jocko Willink & Leif Babin**
+8. **The 5 AM Club — Robin Sharma**
+9. **The Effective Engineer — Edmond Lau**
+10. **Why We Sleep — Matthew Walker**
 
 ---
 
@@ -269,16 +319,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Sleep hours
+* Exercise days per week
+* Projects deployed /documented /published
+* Deep work hours per week
+* Hours spent learning cloud/DevOps/data skills
+* Books/courses completed
+* Income growth
+* Savings rate
+* Spiritual growth
+* Monthly fulfillment score
 
 ---
 
@@ -304,7 +354,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
+Yes
 
 ---
 
@@ -322,7 +372,19 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+Mon-Fri: Walk (60 mins), Deep Work (2-3 hours), Read a book (30 mins), Comment on LinkedIn (30 mins), Write a technical article (1 hour), Work on assignments (2 hours)
+Sat: DMI session
+Sun: Church, Family, Rest, Weekly review
+
+### Weekly Review
+
+I will ask myself:
+
+* What did I build this week?
+* What did I ship?
+* What feedback did I receive?
+* What did I improve?
+* What will I ship next week?
 
 ---
 
@@ -330,11 +392,11 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Mon-Wed (12noon-3pm)
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+3 Sessions Per Week
 
 ---
 
@@ -348,7 +410,17 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+| **Rule**                             | **Description**                                                                                                                                        |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Prioritize What Matters**          | Before opening any app or website, I will myself ask: **"Does this move me closer to my goals?"** If the answer is **No**, don't do it.                              |
+| **No Social Media Before Deep Work** | Avoid social media, news, and entertainment until I've completed your **Most Important Task (MIT)** for the day.                                     |
+| **Time-Box Entertainment**           | Limit entertainment to: **Social Media: 30 mins/day**, **YouTube (non-learning): 30–60 mins/day**, **TV/Movies: Only after planned work is complete.** |
+| **Silence Notifications**            | Turn off all non-essential notifications. Allow only **phone calls, calendar reminders, and urgent family messages**.                                  |
+| **One Task at a Time**               | Avoid multitasking. During deep work, focus on **one project, one objective, and as few browser tabs as possible**.                                    |
+| **Schedule Email Checks**            | Check personal emails only at designated times say Mornings      |
+| **Maintain a Clean Workspace**       | End each day by organizing your desk, closing unnecessary tabs, and tidying your notes and files.                                                      |
+| **Protect Deep Work Time**           | Reserve **2–4 uninterrupted hours** daily for focused work. No phone, social media, messaging apps, or unnecessary meetings.                           |
+| **Digital Shutdown Routine**         | At least **30 minutes before bed**, disconnect from screens. Reflect, or prepare for the next day instead.                                         |
 
 ---
 
@@ -356,15 +428,103 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+> **My next level won't come from learning more—it will come from demonstrating what I already know.**
+
+Every project I build, every solution I ship, every GitHub commit, every article I publish, and every contribution I make becomes tangible proof of my growth.
+
+**I am no longer measured by what I know. I am measured by what I consistently build, ship, and share.**
+
+---
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+#### My Biggest Weakness: Over-Preparation Instead of Shipping
+
+One of the biggest patterns I've noticed about myself is a tendency toward **over-preparation instead of execution**.
+
+I naturally invest a great deal of time in:
+
+* Planning
+* Documenting
+* Reading
+* Learning
+
+While these activities are valuable, they can become a form of **productive procrastination** when they delay real-world execution.
+
+### The Question I Must Keep Asking
+
+> **"What have I shipped into the real world this week?"**
+
+### The Loop I Need to Break
+
+❌ **Current Pattern**
+
+```text
+Learn
+   ↓
+Plan
+   ↓
+Improve the Plan
+   ↓
+Read More
+   ↓
+Optimize
+   ↓
+Repeat
+```
+
+✅ **The Pattern I Need**
+
+```text
+Learn
+   ↓
+Build
+   ↓
+Ship
+   ↓
+Receive Feedback
+   ↓
+Improve
+   ↓
+Repeat
+```
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+#### My New Rule
+
+> **Build first. Improve later.**
+
+Progress comes from execution—not endless preparation. The fastest learners are those who are willing to produce imperfect work, gather feedback, and improve through experience.
+
+#### My New Mindset
+
+Instead of asking:
+
+> **"What should I learn next?"**
+
+I will ask:
+
+> **"What should I build next?"**
+
+#### Turning Knowledge into Proof
+
+Knowledge only becomes valuable when it is visible and applied.
+
+| **Instead of Only...**     | **I Will Also...**                  |
+| -------------------------- | ----------------------------------- |
+| Earning a certification | Build a real project             |
+| Reading a book          | Publish a blog or summary        |
+| Completing a tutorial   | Create a GitHub repository       |
+| Learning a concept      | Apply it to solve a real problem |
+
+To make that vision real, I will focus on reducing the gap between **learning** and **shipping**.
+
+I will adopt a simple ratio:
+
+> **For every hour I spend learning, I will spend at least one hour applying what I learned.**
+
+This habit will help ensure your portfolio, GitHub, blog, and professional reputation grow alongside my knowledge. Over time, they'll become tangible evidence of the person my Vision 2.0 describes.
 
 ### LinkedIn Post
 
@@ -376,8 +536,8 @@ Paste your LinkedIn post link here:
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+* LinkedIn Post URL: **https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-share-7478823904011128833-ooO6/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI**  
+* Blog / Medium : **ADD LINK HERE**  
 
 ---
 
@@ -387,16 +547,15 @@ DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mi
 
 It helps learners build strong DevOps foundations with hands-on experience.
 
-
 ## 📌 Resources
 
-- 🌐 **DMI Official Website:** https://pravinmishra.com/dmi  
-- 🎓 **DevOps for Beginners (Udemy):** https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/  
-- 🎓 **Ultimate Agentic AI DevOps with Clude Code** https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/?referralCode=448389767BC96284087B
-- 🎓 **DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm** https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3
-- ▶️ **YouTube Playlist (DMI Cohort 3):** https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
-- 🔗 **Pravin Mishra (LinkedIn):** https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
-- 🏢 **CloudAdvisory (LinkedIn):** https://www.linkedin.com/company/thecloudadvisory/
+* 🌐 **DMI Official Website:** <https://pravinmishra.com/dmi>  
+* 🎓 **DevOps for Beginners (Udemy):** <https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/>  
+* 🎓 **Ultimate Agentic AI DevOps with Clude Code** <https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/?referralCode=448389767BC96284087B>
+* 🎓 **DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm** <https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3>
+* ▶️ **YouTube Playlist (DMI Cohort 3):** <https://www.youtube.com/playlist?list=PLFeSNDtI4Cho>  
+* 🔗 **Pravin Mishra (LinkedIn):** <https://www.linkedin.com/in/pravin-mishra-aws-trainer/>  
+* 🏢 **CloudAdvisory (LinkedIn):** <https://www.linkedin.com/company/thecloudadvisory/>
 
 ---
 

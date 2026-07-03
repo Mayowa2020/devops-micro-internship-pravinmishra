@@ -13,11 +13,11 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Name** | Adebukunola Oyetimehin |
+| **LinkedIn** | [bukky-oyetimehin](https://www.linkedin.com/in/bukky-oyetimehin/) |
+| **Location** | Lagos, Nigeria |
+| **Background** | IT Support, Data Analytics, DevOps |
+| **Goal** | Master DevOps |
 
 ---
 
@@ -27,8 +27,8 @@
 
 This is not a course. It is an internship-style program — real deployments, real pipelines, real evidence reviewed by mentors every week.
 
-- 🌐 Program Website: https://dmi.pravinmishra.com
-- 💬 Discord Community: https://discord.pravinmishra.com
+- 🌐 Program Website: <https://dmi.pravinmishra.com>
+- 💬 Discord Community: <https://discord.pravinmishra.com>
 - 📺 YouTube: [Pravin Mishra](https://www.youtube.com/@awswithpravinmishra)
 - 🔗 Instructor: [LinkedIn](https://www.linkedin.com/in/pravin-mishra-aws-trainer/)
 
@@ -167,5 +167,5 @@ If you found this repo useful or want to follow my DevOps journey:
 
 - ⭐ Star this repo
 - 🔗 Connect with me on [LinkedIn](#)
-- 🌐 Learn more about the program: https://dmi.pravinmishra.com
-- 💬 Join the community: https://discord.pravinmishra.com
+- 🌐 Learn more about the program: <https://dmi.pravinmishra.com>
+- 💬 Join the community: <https://discord.pravinmishra.com>
