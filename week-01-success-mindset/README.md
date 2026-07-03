@@ -215,15 +215,13 @@ It's a declaration of the future I'm intentionally building—one day, one proje
 
 **What's one decision you're making today that your future self will thank you for?**
 
-> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( <https://discord.pravinmishra.com/> ).**
-
 ![Assignment 3 Screenshot](screenshots/week-01-screenshot-01.png)
 
 ### Public Link
 
 Paste your link here:
 
-`____________________https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-share-7478823904011128833-ooO6/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI______`
+https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-share-7478823904011128833-ooO6/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI
 
 ---
 
@@ -281,15 +279,16 @@ Choose books that improve:
 
 ## Book List
 
-1. **Atomic Habits — James Clear**
+1. **Atomic Habits — James Clear** ![Assignment 5 Screenshot](screenshots/week-01-screenshot-02.png)
 2. **Deep Work — Cal Newport**
-3. **Mindset — Carol S. Dweck**
-4. **Lateral Thinking — Edward de Bono**
-5. **How to Win Friends and Influence People — Dale Carnegie**
+4. **Mindset — Carol S. Dweck**
+5. **Lateral Thinking — Edward de Bono**
+5. **How to Win Friends and Influence People — Dale Carnegie** 
+   ![Assignment 5 Screenshot](screenshots/week-01-screenshot-04.jpg)
 6. **So Good They Can't Ignore You — Cal Newport**
 7. **Extreme Ownership — Jocko Willink & Leif Babin**
 8. **The 5 AM Club — Robin Sharma**
-9. **The Effective Engineer — Edmond Lau**
+9.  **The Effective Engineer — Edmond Lau** ![Assignment 5 Screenshot](screenshots/week-01-screenshot-03.png)
 10. **Why We Sleep — Matthew Walker**
 
 ---
@@ -328,7 +327,7 @@ List topics only. No need to share numbers.
 * Income growth
 * Savings rate
 * Spiritual growth
-* Monthly fulfillment score
+* Meaningful professional connections
 
 ---
 
@@ -380,11 +379,15 @@ Sun: Church, Family, Rest, Weekly review
 
 I will ask myself:
 
+* What did I learn?
 * What did I build this week?
 * What did I ship?
 * What feedback did I receive?
+* What drained my energy?
 * What did I improve?
 * What will I ship next week?
+* What should I stop doing?
+* What should I do more?
 
 ---
 
@@ -451,11 +454,11 @@ I naturally invest a great deal of time in:
 
 While these activities are valuable, they can become a form of **productive procrastination** when they delay real-world execution.
 
-### The Question I Must Keep Asking
+#### The Question I Must Keep Asking
 
 > **"What have I shipped into the real world this week?"**
 
-### The Loop I Need to Break
+#### The Loop I Need to Break
 
 ❌ **Current Pattern**
 
