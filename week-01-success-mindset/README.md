@@ -21,7 +21,7 @@ You will reuse this in later weeks. So do it properly once.
 
 ---
 
-# Assignment 1. What is something you believe to be true that most people around you would disagree with?
+## Assignment 1. What is something you believe to be true that most people around you would disagree with?
 
 ### Rules
 
@@ -67,7 +67,7 @@ Technology is more than a profession for me—it is a genuine passion. I cannot 
 
 ---
 
-# Assignment 2. What are the top 3 objective truths you discovered through experimentation and results?
+## Assignment 2. What are the top 3 objective truths you discovered through experimentation and results?
 
 ### Definition
 
@@ -119,7 +119,7 @@ When I earned my first AWS certification—the AWS Certified Cloud Practitioner�
 
 ---
 
-# Assignment 3. What does your 2.0 version look like?
+## Assignment 3. What does your 2.0 version look like?
 
 ### Instructions
 
@@ -225,7 +225,7 @@ Paste your link here:
 
 ---
 
-# Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
+## Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
 
 ### Important
 
@@ -257,7 +257,7 @@ If Yes:
 
 ---
 
-# Assignment 5. What are 10 non-fiction books you plan to read in the next 1 year?
+## Assignment 5. What are 10 non-fiction books you plan to read in the next 1 year?
 
 ### Rules
 
@@ -279,21 +279,21 @@ Choose books that improve:
 
 ## Book List
 
-1. **Atomic Habits — James Clear** ![Assignment 5 Screenshot](screenshots/week-01-screenshot-02.png)
-2. **Deep Work — Cal Newport**
-3. **Mindset — Carol S. Dweck**
-4. **Lateral Thinking — Edward de Bono**
+1. **Atomic Habits — James Clear** ![Assignment 5 Screenshot](screenshots/week-01-screenshot-02.webp)
+2. **Deep Work — Cal Newport** ![Assignment 5 Screenshot](screenshots/week-01-screenshot-03.webp)
+3. **Mindset — Carol S. Dweck** ![Assignment 5 Screenshot](screenshots/week-01-screenshot-04.webp)
+4. **Lateral Thinking — Edward de Bono** ![Assignment 5 Screenshot](screenshots/week-01-screenshot-05.webp)
 5. **How to Win Friends and Influence People — Dale Carnegie**
-   ![Assignment 5 Screenshot](screenshots/week-01-screenshot-04.jpg)
-6. **So Good They Can't Ignore You — Cal Newport**
-7. **Extreme Ownership — Jocko Willink & Leif Babin**
-8. **The 5 AM Club — Robin Sharma**
-9.  **The Effective Engineer — Edmond Lau** ![Assignment 5 Screenshot](screenshots/week-01-screenshot-03.png)
-10. **Why We Sleep — Matthew Walker**
+   ![Assignment 5 Screenshot](screenshots/week-01-screenshot-06.jpg)
+6. **So Good They Can't Ignore You — Cal Newport** ![Assignment 5 Screenshot](screenshots/week-01-screenshot-07.webp)
+7. **Extreme Ownership — Jocko Willink & Leif Babin** ![Assignment 5 Screenshot](screenshots/week-01-screenshot-08.webp)
+8. **The 5 AM Club — Robin Sharma** ![Assignment 5 Screenshot](screenshots/week-01-screenshot-09.webp)
+9. **The Effective Engineer — Edmond Lau** ![Assignment 5 Screenshot](screenshots/week-01-screenshot-10.png)
+10. **Why We Sleep — Matthew Walker** ![Assignment 5 Screenshot](screenshots/week-01-screenshot-11.webp)
 
 ---
 
-# Assignment 6. What are the things you will measure regularly in your life and career?
+## Assignment 6. What are the things you will measure regularly in your life and career?
 
 ### Rules
 
@@ -331,7 +331,7 @@ List topics only. No need to share numbers.
 
 ---
 
-# Assignment 7. Brain Dump + 5-Month System Plan
+## Assignment 7. Brain Dump + 5-Month System Plan
 
 ## Step 1: Brain Dump (Private)
 
