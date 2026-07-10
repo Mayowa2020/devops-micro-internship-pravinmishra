@@ -40,7 +40,8 @@ Store project-specific rules and configurations into Claude’s memory and verif
 
 #### Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
-![Assignment 07 Screenshot](screenshots/week-02-screenshot-37.png)
+![Assignment 07 Screenshot](screenshots/week-02-screenshot-37a.png)
+![Assignment 07 Screenshot](screenshots/week-02-screenshot-37b.png)
 
 ---
 
