@@ -29,30 +29,32 @@ If a `CLAUDE.md` file already exists, delete it before starting this assignment.
 ## 2. Step-by-Step Solution
 
 ---
-### Step 0 - Commit the deleted files in first assignment.
+
+### Step 0 - Commit the deleted files in first assignment
 
 1. Open your portfolio project in VS Code.
 
 ![project](./images/ss46.png)
 
-2. Verify that there is **no `CLAUDE.md`** file.
+1. Verify that there is **no `CLAUDE.md`** file.
 
 ![project](./images/ss67.png)
 
-3. Open the git bash terminal.
+1. Open the git bash terminal.
 
 ![terminal](./images/ss68.png)
 
 ![terminal](./images/ss69.png)
 
-4. Check the status
+1. Check the status
 
 ```bash
 git status
 ```
+
 ![project folder](./images/ss73.png)
 
-5. Confirm the directory, Stage the changes and commit them
+1. Confirm the directory, Stage the changes and commit them
 
 ```bash
 pwd
@@ -76,7 +78,7 @@ Output:
 
 ![claude](./images/ss71.png)
 
-2. Ask Claude the following question:
+1. Ask Claude the following question:
 
 Copy and paste this prompt, press `Enter`
 
@@ -86,7 +88,7 @@ What is this project and how should I deploy it?
 
 ![prompt](./images/ss72.png)
 
-3. Claude gives a generic response because it only sees the HTML and CSS files. 
+1. Claude gives a generic response because it only sees the HTML and CSS files.
 
 ![response](./images/ss75.png)
 
@@ -106,19 +108,19 @@ What is this project and how should I deploy it?
 
 ![init](./images/ss78.png)
 
-2. Select `Project CLAUDE.md` and press `Enter` (It may display another sugession for you to confirm)
+1. Select `Project CLAUDE.md` and press `Enter` (It may display another sugession for you to confirm)
 
 ![init](./images/ss79.png)
 
-3. If prompted to this, select this option and press `Enter`
+1. If prompted to this, select this option and press `Enter`
 
 ![init](./images/ss80.png)
 
-4. Provide approval
+1. Provide approval
 
 ![init](./images/ss81.png)
 
-5. If prompted to this, select this option and press `Enter`
+1. If prompted to this, select this option and press `Enter`
 
 ![init](./images/ss82.png)
 
@@ -128,13 +130,13 @@ Use arrow keys and navigate to `submit` then press `1` to confirm
 
 ![init](./images/ss84.png)
 
-6. Select `yes` and press `Enter`
+1. Select `yes` and press `Enter`
 
 ![init](./images/ss85.png)
 
-7. Claude scans the project and generated a `CLAUDE.md` file.
+1. Claude scans the project and generated a `CLAUDE.md` file.
 
-8. Open the generated `CLAUDE.md` in VS Code.
+2. Open the generated `CLAUDE.md` in VS Code.
 
 ![claudemd](./images/ss86.png)
 
@@ -209,7 +211,7 @@ Save the file.
 
 ![newsession](./images/ss90.png)
 
-2. Open a **new Claude Code session**.
+1. Open a **new Claude Code session**.
 
 ```bash
 claude
@@ -225,7 +227,7 @@ claude
 
 #### Test 1
 
-* Copy and paste this in the claude code terminal session.
+- Copy and paste this in the claude code terminal session.
 
 ```
 What is this project and how should I deploy it?
@@ -248,7 +250,7 @@ It should mention:
 
 #### Test 2
 
-* Copy and paste this in the claude code terminal session
+- Copy and paste this in the claude code terminal session
 
 ```
 Add a React component to the homepage.
@@ -273,19 +275,19 @@ Claude should refuse or warn against adding React because your project conventio
 git status
 ```
 
-2. Stage the changes.
+1. Stage the changes.
 
 ```bash
 git add CLAUDE.md
 ```
 
-3. Commit the changes.
+1. Commit the changes.
 
 ```bash
 git commit -m "Add project-specific CLAUDE.md"
 ```
 
-4. Push the changes.
+1. Push the changes.
 
 ```bash
 git push origin main
@@ -297,7 +299,7 @@ git push origin main
 
 ![push](./images/ss100.png)
 
-5. Open your GitHub repository and verify that `CLAUDE.md` appears in the repository.
+1. Open your GitHub repository and verify that `CLAUDE.md` appears in the repository.
 
 ![github](./images/ss101.png)
 
@@ -312,7 +314,6 @@ git push origin main
 *(Split into multiple screenshots if the file does not fit on one screen.)*
 
 ### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
-
 
 ![response](./images/ss75.png)
 

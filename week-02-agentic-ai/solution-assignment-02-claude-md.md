@@ -22,6 +22,10 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 
 Add your screenshot here.
 
+![Assignment 02 Screenshot](screenshots/week-02-screenshot-06.png)
+![Assignment 02 Screenshot](screenshots/week-02-screenshot-07a.png)
+![Assignment 02 Screenshot](screenshots/week-02-screenshot-07b.png)
+
 ---
 
 # Task 2 — Generate the First Draft with /init
@@ -36,6 +40,8 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 Add your screenshot here.
 
+![Assignment 02 Screenshot](screenshots/week-02-screenshot-08.png)
+
 ---
 
 # Task 3 — Customize the CLAUDE.md
@@ -48,7 +54,7 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 #### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
-Add your screenshot here.
+![Assignment 02 Screenshot](screenshots/week-02-screenshot-09.png)
 
 ---
 
@@ -62,13 +68,13 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 #### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
-Add your screenshot here.
+![Assignment 02 Screenshot](screenshots/week-02-screenshot-10.png)
 
 ---
 
 #### Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
-Add your screenshot here.
+![Assignment 02 Screenshot](screenshots/week-02-screenshot-11.png)
 
 ---
 
@@ -82,7 +88,7 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 #### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
-Add your screenshot here.
+![Assignment 02 Screenshot](screenshots/week-02-screenshot-12.png)
 
 ---
 
@@ -98,19 +104,19 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+`(https://github.com/Mayowa2020/Ultimate-Agentic-DevOps-with-Claude-Code)`
 
 ---
 
 # Completion Checklist
 
-[ ] Screenshot 1 shows a generic Claude response (no CLAUDE.md)<br>
-[ ] Screenshot 2 shows the auto-generated `/init` output <br>
-[ ] Screenshot 3 shows all 5 sections in your customized CLAUDE.md <br>
-[ ] Screenshot 4 shows Claude mentioning S3, CloudFront, and Terraform <br>
-[ ] Screenshot 5 shows Claude refusing the React request <br>
-[ ] Screenshot 6 shows `CLAUDE.md` committed and visible in your GitHub repository <br>
-[ ] GitHub repository URL is included in the submission <br>
+[✅] Screenshot 1 shows a generic Claude response (no CLAUDE.md)<br>
+[✅] Screenshot 2 shows the auto-generated `/init` output <br>
+[✅] Screenshot 3 shows all 5 sections in your customized CLAUDE.md <br>
+[✅] Screenshot 4 shows Claude mentioning S3, CloudFront, and Terraform <br>
+[✅] Screenshot 5 shows Claude refusing the React request <br>
+[✅] Screenshot 6 shows `CLAUDE.md` committed and visible in your GitHub repository <br>
+[✅] GitHub repository URL is included in the submission <br>
 
 ---
 
@@ -124,13 +130,13 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ## 📌 Resources
 
-- 🌐 DMI Official Website: https://pravinmishra.com/dmi  
-- 🎓 DevOps for Beginners (Udemy): https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/  
-- 🎓 Agentic AI DevOps with Claude Code: https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/  
-- 🎓 DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm: https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/  
-- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
-- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
-- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
+- 🌐 DMI Official Website: <https://pravinmishra.com/dmi>  
+- 🎓 DevOps for Beginners (Udemy): <https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/>  
+- 🎓 Agentic AI DevOps with Claude Code: <https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/>  
+- 🎓 DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm: <https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/>  
+- ▶️ YouTube Playlist: <https://www.youtube.com/playlist?list=PLFeSNDtI4Cho>  
+- 🔗 Pravin Mishra (LinkedIn): <https://www.linkedin.com/in/pravin-mishra-aws-trainer/>  
+- 🏢 CloudAdvisory (LinkedIn): <https://www.linkedin.com/company/thecloudadvisory/>
 
 ---
 

@@ -20,7 +20,7 @@ Create the required `.claude/skills/` directory structure for all skills.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
 
-Add your screenshot here.
+![Assignment 02 Screenshot](screenshots/week-02-screenshot-13.png)
 
 ---
 
@@ -34,13 +34,13 @@ Place all required skill files into their correct directories and verify their c
 
 #### Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
 
-Add your screenshot here.
+![Assignment 02 Screenshot](screenshots/week-02-screenshot-14.png)
 
 ---
 
 #### Screenshot 3 — Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
 
-Add your screenshot here.
+![Assignment 02 Screenshot](screenshots/week-02-screenshot-15.png)
 
 ---
 
@@ -54,13 +54,13 @@ Execute the `/scaffold-terraform` skill to generate a full Terraform infrastruct
 
 #### Screenshot 4 — Claude's response showing the scaffold complete with the file list
 
-Add your screenshot here.
+![Assignment 02 Screenshot](screenshots/week-02-screenshot-16.png)
 
 ---
 
 #### Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
-Add your screenshot here.
+![Assignment 02 Screenshot](screenshots/week-02-screenshot-17.png)
 
 ---
 
@@ -74,7 +74,8 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 #### Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
 
-Add your screenshot here.
+![Assignment 02 Screenshot](screenshots/week-02-screenshot-18a.png)
+![Assignment 02 Screenshot](screenshots/week-02-screenshot-18b.png)
 
 ---
 
@@ -90,27 +91,28 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/Mayowa2020/Ultimate-Agentic-DevOps-with-Claude-Code`
 
 ## LinkedIn post URL
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-share-7481150569836093440-_8ZF/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI`
+
 ---
 
 # Completion Checklist
 
-- [ ] `.claude/skills/` folder created with all 4 skill folders
-- [ ] All skill files placed correctly
-- [ ] `tf-plan/SKILL.md` shows correct `allowed-tools` restrictions
-- [ ] `/scaffold-terraform` executed successfully
-- [ ] Terraform files generated inside `terraform/` folder
-- [ ] `terraform init` executed successfully
-- [ ] `/tf-plan` executed and output analyzed by Claude
-- [ ] All required screenshots added
-- [ ] GitHub repository URL included
-- [ ] LinkedIn post URL included
+- [✅] `.claude/skills/` folder created with all 4 skill folders
+- [✅] All skill files placed correctly
+- [✅] `tf-plan/SKILL.md` shows correct `allowed-tools` restrictions
+- [✅] `/scaffold-terraform` executed successfully
+- [✅] Terraform files generated inside `terraform/` folder
+- [✅] `terraform init` executed successfully
+- [✅] `/tf-plan` executed and output analyzed by Claude
+- [✅] All required screenshots added
+- [✅] GitHub repository URL included
+- [✅] LinkedIn post URL included
 
 ---
 
@@ -124,13 +126,13 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ## 📌 Resources
 
-- 🌐 DMI Official Website: https://pravinmishra.com/dmi  
-- 🎓 DevOps for Beginners (Udemy): https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/  
-- 🎓 Agentic AI DevOps with Claude Code: https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/  
-- 🎓 DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm: https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/  
-- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
-- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
-- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
+- 🌐 DMI Official Website: <https://pravinmishra.com/dmi>  
+- 🎓 DevOps for Beginners (Udemy): <https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/>  
+- 🎓 Agentic AI DevOps with Claude Code: <https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/>  
+- 🎓 DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm: <https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/>  
+- ▶️ YouTube Playlist: <https://www.youtube.com/playlist?list=PLFeSNDtI4Cho>  
+- 🔗 Pravin Mishra (LinkedIn): <https://www.linkedin.com/in/pravin-mishra-aws-trainer/>  
+- 🏢 CloudAdvisory (LinkedIn): <https://www.linkedin.com/company/thecloudadvisory/>
 
 ---
 
