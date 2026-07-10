@@ -20,8 +20,8 @@ Generate a GitHub Personal Access Token (PAT) that will be used for MCP authenti
 
 #### Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
 
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-25a.png)
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-25b.png)
+![Assignment 05 Screenshot](screenshots/week-02-screenshot-25a.png)
+![Assignment 05 Screenshot](screenshots/week-02-screenshot-25b.png)
 
 ---
 
@@ -35,7 +35,7 @@ Create and configure the `.mcp.json` file to define the GitHub MCP server.
 
 #### Screenshot 2 — `.mcp.json` open in VS Code showing the full configuration
 
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-26.png)
+![Assignment 05 Screenshot](screenshots/week-02-screenshot-26.png)
 
 ---
 
@@ -49,7 +49,7 @@ Store your GitHub token securely in `.claude/settings.local.json` and ensure it 
 
 #### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
 
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-27.png)
+![Assignment 05 Screenshot](screenshots/week-02-screenshot-27.png)
 
 ---
 
@@ -63,7 +63,7 @@ Confirm that the GitHub MCP server is successfully connected inside Claude Code.
 
 #### Screenshot 4 — `/mcp` output showing `github: connected`
 
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-28.png)
+![Assignment 05 Screenshot](screenshots/week-02-screenshot-28.png)
 
 ---
 
@@ -77,8 +77,8 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 
 #### Screenshot 5 — Claude's response showing your real GitHub repositories (you may blur individual repo names if preferred)
 
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-29a.png)
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-29b.png)
+![Assignment 05 Screenshot](screenshots/week-02-screenshot-29a.png)
+![Assignment 05 Screenshot](screenshots/week-02-screenshot-29b.png)
 
 ---
 

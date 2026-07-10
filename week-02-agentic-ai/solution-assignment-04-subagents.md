@@ -20,7 +20,7 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-19.png)
+![Assignment 04 Screenshot](screenshots/week-02-screenshot-19.png)
 
 ---
 
@@ -56,13 +56,13 @@ The Terraform writer requires a high degree of flexibility because its core func
 
 #### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-20.png)
+![Assignment 04 Screenshot](screenshots/week-02-screenshot-20.png)
 
 ---
 
 #### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-21.png)
+![Assignment 04 Screenshot](screenshots/week-02-screenshot-21.png)
 
 ---
 
@@ -76,15 +76,15 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-22.png)
+![Assignment 04 Screenshot](screenshots/week-02-screenshot-22.png)
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-23a.png)
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-23b.png)
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-23c.png)
+![Assignment 04 Screenshot](screenshots/week-02-screenshot-23a.png)
+![Assignment 04 Screenshot](screenshots/week-02-screenshot-23b.png)
+![Assignment 04 Screenshot](screenshots/week-02-screenshot-23c.png)
 
 ---
 
@@ -98,9 +98,9 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — The full cost optimization report
 
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-24a.png)
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-24b.png)
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-24c.png)
+![Assignment 04 Screenshot](screenshots/week-02-screenshot-24a.png)
+![Assignment 04 Screenshot](screenshots/week-02-screenshot-24b.png)
+![Assignment 04 Screenshot](screenshots/week-02-screenshot-24c.png)
 
 ---
 

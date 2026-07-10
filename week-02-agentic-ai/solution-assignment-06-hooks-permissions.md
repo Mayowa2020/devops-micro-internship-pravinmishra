@@ -20,7 +20,7 @@ Create a team-level `settings.json` file with allow and deny rules for safe comm
 
 #### Screenshot 1 — Screenshot 1 — `settings.json` open in VS Code showing the full permissions configuration
 
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-30.png)
+![Assignment 06 Screenshot](screenshots/week-02-screenshot-30.png)
 
 ---
 
@@ -34,7 +34,7 @@ Add a hook that intercepts user prompts before Claude starts execution and block
 
 #### Screenshot 2 — settings.json showing UserPromptSubmit hook
 
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-31.png)
+![Assignment 06 Screenshot](screenshots/week-02-screenshot-31.png)
 
 ---
 
@@ -48,7 +48,7 @@ Extend `settings.json` with a PreToolUse hook that blocks dangerous Bash command
 
 #### Screenshot 3 — full settings.json with permissions and hooks
 
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-32.png)
+![Assignment 06 Screenshot](screenshots/week-02-screenshot-32.png)
 
 ---
 
@@ -62,7 +62,7 @@ Verify that destructive prompts are blocked before Claude begins execution.
 
 #### Screenshot 4 — blocked prompt due to UserPromptSubmit hook
 
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-33.png)
+![Assignment 06 Screenshot](screenshots/week-02-screenshot-33.png)
 
 ---
 
@@ -76,7 +76,7 @@ Verify that dangerous commands are intercepted before execution by the PreToolUs
 
 #### Screenshot 5 — PreToolUse hook blocking terraform destroy
 
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-34.png)
+![Assignment 06 Screenshot](screenshots/week-02-screenshot-34.png)
 
 ---
 
