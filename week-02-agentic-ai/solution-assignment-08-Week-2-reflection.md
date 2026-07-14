@@ -84,7 +84,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 ### Suggested Hashtags
 
-#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #LearningInPublic
+# DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #LearningInPublic
 
 ---
 
@@ -135,7 +135,7 @@ hashtag#DMI hashtag#DevOps hashtag#CloudComputing hashtag#DevOpsMicroInternship 
 
 ---
 
-### LinkedIn Post Link:
+### LinkedIn Post Link
 
 `https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-activity-7481150571962531840-09Ox?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI`
 
@@ -182,4 +182,3 @@ It helps learners build strong DevOps foundations through hands-on experience.
 * ▶️ YouTube Playlist: [https://www.youtube.com/playlist?list=PLFeSNDtI4Cho](https://www.youtube.com/playlist?list=PLFeSNDtI4Cho)
 * 🔗 Pravin Mishra (LinkedIn): [https://www.linkedin.com/in/pravin-mishra-aws-trainer/](https://www.linkedin.com/in/pravin-mishra-aws-trainer/)
 * 🏢 CloudAdvisory (LinkedIn): [https://www.linkedin.com/company/thecloudadvisory/](https://www.linkedin.com/company/thecloudadvisory/)
-
