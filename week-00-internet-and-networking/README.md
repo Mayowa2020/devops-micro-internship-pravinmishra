@@ -25,8 +25,8 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
-
+![Task 1 Screenshot](screenshots/task-1-chatgpt1.png)
+![Task 1 Screenshot](screenshots/task-1-chatgpt2.png)
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
@@ -34,7 +34,18 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+What I learned from the task above:
+
+1. ChatGPT simplifies the process of finding answers, reducing the need to sift through numerous articles. It efficiently summarizes information to address your queries.
+
+2. Protocols are essential because they:
+
+   * Enable communication between different devices and systems
+   * Ensure data is transmitted accurately and reliably
+   * Provide standardization, so systems built by different companies can work together
+   * Help with error detection and recovery
+
+   In short: Without protocols, modern networking—and the internet itself—would not function.
 
 ---
 
@@ -59,7 +70,7 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When a user visits EpicReads, their request is broken into small units called **packet switching**, allowing data to travel efficiently across multiple network paths before being reassembled at the destination. Each device on the internet has a unique **IP address**, which acts like a digital home address, ensuring the request reaches the server in Finland. Communication relies on the **TCP/IP protocol suite**: TCP ensures data is delivered accurately and in order, while IP handles routing between networks. Once connected, **HTTP** (HyperText Transfer Protocol) is used to transfer web content, but **HTTPS** (the secure version) encrypts the data, protecting sensitive information like login details. Together, these technologies ensure that users worldwide can reliably and securely access EpicReads regardless of their location.
 
 ---
 
@@ -93,7 +104,6 @@ Save your diagram image in the `screenshots` folder and update the file name bel
 
 ![Application Architecture Diagram](screenshots/task-3-diagram.png)
 
-
 Replace `task-3-diagram.png` with your actual diagram file name.
 
 ---
@@ -102,18 +112,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* HTML, CSS, JavaScript
+* React or Angular
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js (Express)
+* Python (Django / Flask)
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MySQL
+* MongoDB
 
 ---
 
@@ -142,7 +152,8 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+The **Domain Name System (DNS)** is a system that translates human-friendly domain names (like *epicreads.com*) into machine-readable IP addresses (like 52,172,142,222), allowing users to access websites without memorizing numeric addresses.
+To link *epicreads.com* to the server, an **A record** should be used. An A record maps a domain directly to an IPv4 address, making it the correct choice for pointing the domain to 52,172,142,222.
 
 ---
 
@@ -180,7 +191,6 @@ Save your screenshot in the `screenshots` folder and update the file name below.
 
 ![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
 
-
 Replace `task-5-vscode.png` with your actual screenshot file name.
 
 ---
@@ -209,7 +219,7 @@ Clearly structure your post into the following sections:
 
 Add the following credit note at the end of your post:
 
-> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community: https://discord.pravinmishra.com/**
+> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community: <https://discord.pravinmishra.com/>**
 
 ---
 
@@ -218,7 +228,7 @@ Add the following credit note at the end of your post:
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
+https://www.linkedin.com/pulse/devops-micro-internship-dmi-bukky-oyetimehin-yruqe
 ```
 
 ---
@@ -227,7 +237,26 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+DevOps Micro-Internship (DMI)
+
+I recently registered for the DevOps Micro-Internship (DMI) Cohort 3. The assignment tasks covered core concepts, including network protocols and development setup, which are briefly summarised here. This demonstrates my suitability for participation in the cohort.
+DevOps Fundamentals: Key Takeaways from Tasks 1-5
+Task 1: ChatGPT
+Focused on leveraging ChatGPT as a powerful learning assistant for technical subjects.
+
+Task 2: Internet & Networking
+Understanding how data travels on the web is key to DevOps. When a user visits a site, their request is broken into small units via packet switching, which allows the data to travel efficiently across multiple network paths before being reassembled at the destination. Every device on the internet has a unique IP address, which acts like a digital home address to ensure the request reaches the correct server. Communication relies on the TCP/IP protocol suite: TCP ensures that data is delivered accurately and in the correct order, while IP handles the routing between networks. For transferring web content, HTTPS (HyperText Transfer Protocol Secure) encrypts the data, protecting sensitive information, unlike standard HTTP.
+
+Task 3: App Architecture
+Covered the fundamentals of application architecture & stack.
+
+Task 4: DNS
+The Domain Name System (DNS) is essential as it translates human-friendly domain names (like epicreads.com) into machine-readable IP addresses (like 52.172.142.222), so users don't have to memorise numeric addresses. To link a domain to an IPv4 address, an A record must be used, which maps the domain directly to the specified IP.
+
+Task 5:  VS Code Setup
+Hands-on exercise focused on setting up Visual Studio Code.
+
+P.S. This post is part of the FREE DevOps Micro Internship Cohort run by Pravin Mishra. You can start your DevOps journey for free from his YouTube Playlist.
 
 ---
 
@@ -235,19 +264,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+Using ChatGPT and Visual Studio Code.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+I found posting on LinkedIn somewhat challenging, as it's not something I'm accustomed to doing.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+I plan to boost my confidence and proficiency in creating LinkedIn posts next week.
 
 ---
 
@@ -257,16 +286,15 @@ DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mi
 
 It helps learners build strong DevOps foundations with hands-on experience.
 
-
 ## 📌 Resources
 
-- 🌐 **DMI Official Website:** https://pravinmishra.com/dmi  
-- 🎓 **DevOps for Beginners (Udemy):** https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/  
-- 🎓 **Ultimate Agentic AI DevOps with Clude Code** https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/?referralCode=448389767BC96284087B
-- 🎓 **DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm** https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3
-- ▶️ **YouTube Playlist (DMI Cohort 3):** https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
-- 🔗 **Pravin Mishra (LinkedIn):** https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
-- 🏢 **CloudAdvisory (LinkedIn):** https://www.linkedin.com/company/thecloudadvisory/
+* 🌐 **DMI Official Website:** <https://pravinmishra.com/dmi>  
+* 🎓 **DevOps for Beginners (Udemy):** <https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/>  
+* 🎓 **Ultimate Agentic AI DevOps with Clude Code** <https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/?referralCode=448389767BC96284087B>
+* 🎓 **DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm** <https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/?referralCode=1C5B734505D65A010FA3>
+* ▶️ **YouTube Playlist (DMI Cohort 3):** <https://www.youtube.com/playlist?list=PLFeSNDtI4Cho>  
+* 🔗 **Pravin Mishra (LinkedIn):** <https://www.linkedin.com/in/pravin-mishra-aws-trainer/>  
+* 🏢 **CloudAdvisory (LinkedIn):** <https://www.linkedin.com/company/thecloudadvisory/>
 
 ---
 
