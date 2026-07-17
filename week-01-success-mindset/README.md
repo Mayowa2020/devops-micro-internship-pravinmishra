@@ -543,8 +543,6 @@ Paste your LinkedIn post link here:
   
   [LinkedIn Post 1](https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-activity-7478910893507141633-HHOv?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI)
 
-  [LinkedIn Post 2](https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-activity-7478823905214853122-6Dsp?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI)
-  
 * Blog / Medium : **ADD LINK HERE**  
 
 ---
