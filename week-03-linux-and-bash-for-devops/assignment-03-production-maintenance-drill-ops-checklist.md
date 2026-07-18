@@ -307,7 +307,6 @@ curl http://<server-ip>
 
 Check that the returned page contains the expected content or version information.
 
-
 # Task 6 — Nginx Configuration Failure Simulation
 
 ## Goal
@@ -453,11 +452,7 @@ Cloud resources should be stopped or terminated when they are no longer needed t
 
 Paste your LinkedIn post URL here:
 
-<<<<<<< HEAD:week-03-linux-for-devops/assignment-03-production-maintenance-drill-ops-checklist.md
-`https://www.linkedin.com/posts/bukky-oyetimehin_dmi-dmicohort3-devops-share-7483951078753935360-X-80/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI`
-=======
-`Add your URL here`
->>>>>>> upstream:week-03-linux-and-bash-for-devops/assignment-03-production-maintenance-drill-ops-checklist.md
+`(https://www.linkedin.com/posts/bukky-oyetimehin_dmi-dmicohort3-devops-share-7483951078753935360-X-80/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI)`
 
 ---
 

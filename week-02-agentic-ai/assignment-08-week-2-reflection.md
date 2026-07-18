@@ -155,7 +155,7 @@ hashtag#DMI hashtag#DevOps hashtag#CloudComputing hashtag#DevOpsMicroInternship 
 ### LinkedIn Post Link
 
 
-`[Add your URL here](https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-activity-7481150571962531840-09Ox?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI)`
+`(https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-activity-7481150571962531840-09Ox?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI)`
 
 ---
 

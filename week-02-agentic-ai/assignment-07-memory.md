@@ -92,7 +92,7 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 Paste your Linkedin post link here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-share-7481150569836093440-_8ZF/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI`
 
 ---
 

@@ -221,7 +221,7 @@ It's a declaration of the future I'm intentionally building—one day, one proje
 
 Paste your link here:
 
-`Add your URL here`
+`(https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-share-7478823904011128833-ooO6/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI)`
 
 ---
 
@@ -533,7 +533,7 @@ This habit will help ensure your portfolio, GitHub, blog, and professional reput
 
 Paste your LinkedIn post link here:
 
-`(https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-activity-7478910893507141633-HHOv?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI)`
+`https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-share-7478900868457771008-6hut/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI`
 
 ---
 
@@ -543,8 +543,7 @@ Paste your LinkedIn post link here:
   
 `https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-activity-7478823905214853122-6Dsp?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI`  
 
-
-* Blog / Medium : **[ADD LINK HERE](https://cloudcraftjournal.hashnode.dev/building-the-engineer-before-building-the-technology)**  
+* Blog / Medium : **(<https://cloudcraftjournal.hashnode.dev/building-the-engineer-before-building-the-technology>)**  
 
 ---
 
