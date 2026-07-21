@@ -20,13 +20,13 @@ Create a `CodeTrack` project folder and initialize it as a Git repository.
 
 #### Screenshot 1 — Output of `git init` inside `CodeTrack` showing "Initialized empty Git repository"
 
-Add your screenshot here.
+![Assignment 01 Screenshot](screenshots/week-04-screenshot-01.png)
 
 ---
 
 #### Screenshot 2 — Output of `ls -a` showing the `.git` folder
 
-Add your screenshot here.
+![Assignment 01 Screenshot](screenshots/week-04-screenshot-02.png)
 
 ---
 
@@ -34,7 +34,23 @@ Add your screenshot here.
 
 **1. What is the `.git` folder, and why does it matter?**
 
-Add your answer here.
+The .git folder is the hidden directory that Git creates when you initialize a repository with git init. It contains all the metadata and history Git needs to track your project.
+
+Think of it as the brain of your Git repository. 🧠 Without the .git folder, your project is just a collection of files—Git has no way to track changes, branches, commits, or collaborators.
+
+What does the .git folder contain?
+
+Some of the key contents include:
+
+Commit history – Every commit you've made.
+Branches – References to different lines of development.
+Tags – Named markers for important commits, such as releases.
+Configuration – Repository-specific Git settings.
+Objects – The database where Git stores file contents, commits, trees, and other data.
+HEAD – A pointer to the currently checked-out branch or commit.
+Index (Staging Area) – Tracks files that have been staged for the next commit.
+
+The .git folder is the heart of a Git repository. It stores the complete version history, configuration, and metadata required for Git to manage your project. Deleting it removes all version control information, leaving only the current project files.
 
 ---
 
@@ -48,7 +64,7 @@ Set your Git username and email for the `CodeTrack` repository only, using `git 
 
 #### Screenshot 3 — Output of `git config --local --list` showing your `user.name` and `user.email`
 
-Add your screenshot here.
+![Assignment 01 Screenshot](screenshots/week-04-screenshot-03.png)
 
 ---
 
@@ -62,7 +78,7 @@ Set a global Git username and email for this machine using `git config --global`
 
 #### Screenshot 4 — Output of `git config --global --list` showing your `user.name` and `user.email`
 
-Add your screenshot here.
+![Assignment 01 Screenshot](screenshots/week-04-screenshot-04.png)
 
 ---
 
