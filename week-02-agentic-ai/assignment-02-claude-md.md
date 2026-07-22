@@ -23,8 +23,6 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 Add your screenshot here.
 
 ![Assignment 02 Screenshot](screenshots/week-02-screenshot-06.png)
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-07a.png)
-![Assignment 02 Screenshot](screenshots/week-02-screenshot-07b.png)
 
 ---
 

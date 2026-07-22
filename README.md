@@ -130,10 +130,10 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | <https://www.linkedin.com/pulse/devops-micro-internship-dmi-bukky-oyetimehin-yruqe> | — |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | https://www.linkedin.com/pulse/devops-micro-internship-dmi-bukky-oyetimehin-yruqe | https://cloudcraftjournal.hashnode.dev/building-the-engineer-before-building-the-technology |
 | 01 | Success Mindset | ✅ Completed| ✅ Completed | (https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-activity-7478910893507141633-HHOv?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI) | https://cloudcraftjournal.hashnode.dev/building-the-engineer-before-building-the-technology?utm_source=hashnode&utm_medium=feed |
-| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed| <https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-share-7481150569836093440-_8ZF/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI> | <https://cloudcraftjournal.hashnode.dev/beyond-prompts-my-first-steps-into-agentic-ai> |
-| 03 | Linux & Bash for DevOps | ✅ Completed | ⏳ Pending | <https://www.linkedin.com/posts/bukky-oyetimehin_dmi-dmicohort3-devops-share-7483951078753935360-X-80/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI> | <https://cloudcraftjournal.hashnode.dev/week-3-linux-security-and-nginx> |
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed| https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-share-7481150569836093440-_8ZF/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI | https://cloudcraftjournal.hashnode.dev/beyond-prompts-my-first-steps-into-agentic-ai |
+| 03 | Linux & Bash for DevOps | ✅ Completed | ⏳ Pending | https://www.linkedin.com/posts/bukky-oyetimehin_dmi-dmicohort3-devops-share-7483951078753935360-X-80/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI | https://cloudcraftjournal.hashnode.dev/week-3-linux-security-and-nginx |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-git-activity-7485160903928213506-YcN7?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |

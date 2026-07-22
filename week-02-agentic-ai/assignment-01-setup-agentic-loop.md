@@ -54,8 +54,7 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather â
 
 #### Screenshot 4 â€” Claude's response to the first question, showing it read the files (tool calls visible)
 
-![Assignment 1 Screenshot](screenshots/week-02-screenshot-04a.png)
-![Assignment 1 Screenshot](screenshots/week-02-screenshot-04b.png)
+![Assignment 1 Screenshot](screenshots/week-02-screenshot-04.png)
 
 ---
 
