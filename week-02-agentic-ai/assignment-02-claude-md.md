@@ -22,8 +22,6 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 
 ![Assignment 02 Screenshot](screenshots/week-02-screenshot-06.png)
 
-
-
 ---
 
 # Task 2 — Generate the First Draft with /init
@@ -37,8 +35,6 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 #### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
 ![Assignment 02 Screenshot](screenshots/week-02-screenshot-08.png)
-
-
 
 ---
 
@@ -103,7 +99,6 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 Paste your forked repository URL here:
 
 `(https://github.com/Mayowa2020/Ultimate-Agentic-DevOps-with-Claude-Code)`
-
 
 ---
 
