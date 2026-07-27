@@ -101,7 +101,7 @@ Create a tracked, shareable pre-commit hook that blocks a commit containing secr
 >
 > **From a DevOps perspective, this promotes consistency, collaboration, and security. Every developer follows the same pre-commit rules, reducing the chances of committing secrets, oversized files, or code that does not meet the project's standards. It also makes onboarding easier, as new team members can simply clone the repository, configure the hooks path, and immediately benefit from the same automated checks.**
 
-### In short
+### In summary
 
 * ✅ **`.git/hooks/`** is **local to one developer** and is **not tracked by Git**.
 * ✅ **`hooks/pre-commit`** is **tracked in the repository**, making it easy to **share, maintain, version-control, and enforce consistent security and quality checks** across the team.
@@ -112,8 +112,6 @@ This approach reflects how many professional software and DevOps teams manage Gi
 
 **2. Compare this to `PreToolUse` from Week 2 Assignment 6. What does each one intercept, and what do they have in common?**
 This question is asking you to compare **Git's `pre-commit` hook** with **Claude Code's `PreToolUse` hook**. Both are examples of **interception points**—they pause an operation before it happens so checks can be performed.
-
-Here's a comprehensive answer suitable for your DMI assignment.
 
 ---
 
@@ -138,7 +136,7 @@ Here's a comprehensive answer suitable for your DMI assignment.
 | **Can Block?**    | ✅ Yes                                                           | ✅ Yes                                       |
 | **Primary Focus** | Code quality and repository security                            | Safe AI-assisted tool execution             |
 
-### One-sentence answer (for exams)
+### One-sentence answer 
 
 > **Git's `pre-commit` hook intercepts commits before they are recorded, while Claude Code's `PreToolUse` hook intercepts tool requests before they are executed. Both act as preventive security and quality gates that enforce rules and block unsafe actions before they can occur.**
 
@@ -594,7 +592,7 @@ The **`/pr-ready` skill** reviews:
 >
 > **This separation also follows the DevOps principles of human oversight and least privilege.** By restricting Claude from committing, pushing, or opening PRs, the workflow ensures that AI remains an advisory tool while the developer retains full control and responsibility for changes that affect the repository.
 
-### In summary
+In summary
 
 * **Gather:** Collect information (`git status`, `git diff --cached`).
 * **Analyze:** Review changes using the pre-commit hook and `/pr-ready`.
@@ -647,7 +645,6 @@ Publish a LinkedIn post summarizing what you built and what you learned about co
 ---
 
 ## Key Learnings
-git staus
 Add 3-5 bullet points on what you learned this week.
 
 * Git Fundamentals,Branching and Version Control
