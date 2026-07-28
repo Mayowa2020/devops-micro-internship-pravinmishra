@@ -545,7 +545,7 @@ Verify
 
 
 > **This assignment follows the same Gather → Analyze → Human Act → Verify workflow used in Week 3. First, I gathered information using `git status`, `git diff --cached`, the pre-commit hook, and the `/pr-ready` skill to understand the staged changes. Next, these tools analyzed the changes for security issues, debug statements, TODOs, oversized files, and overall PR readiness. Based on the findings, I acted by removing hardcoded credentials, improving the code and PR description, and preparing the changes for submission. Finally, I verified the results by ensuring the commit passed the pre-commit checks, re-running `/pr-ready`, and confirming the Pull Request was ready for review. This workflow demonstrates a structured DevOps approach where issues are identified and resolved before code is shared with others.** 🚀
-.
+
 
 ### Notes
 
