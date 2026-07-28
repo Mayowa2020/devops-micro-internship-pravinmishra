@@ -126,7 +126,7 @@ Paste your LinkedIn post URL here:
 
 #### Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
 
-![Assignment 07 Screenshot](screenshots/week-03-screenshot-46.png)
+![Assignment 07 Screenshot](screenshots/week-03-screenshot-47.png)
 
 ---
 
