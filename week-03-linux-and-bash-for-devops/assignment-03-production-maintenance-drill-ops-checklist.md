@@ -250,20 +250,20 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 1 — Output of `ls -lah /var/www/html | head -n 20`
 
-![Assignment 05 Screenshot](screenshots/week-03-screenshot-29.png)
+![Assignment 03 Screenshot](screenshots/week-03-screenshot-29.png)
 
 ---
 
 #### Screenshot 2 — Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`
 
-![Assignment 05 Screenshot](screenshots/week-03-screenshot-30a.png)
-![Assignment 05 Screenshot](screenshots/week-03-screenshot-30b.png)
+![Assignment 03 Screenshot](screenshots/week-03-screenshot-30a.png)
+![Assignment 03 Screenshot](screenshots/week-03-screenshot-30b.png)
 
 ---
 
 #### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
 
-![Assignment 05 Screenshot](screenshots/week-03-screenshot-31.png)
+![Assignment 03 Screenshot](screenshots/week-03-screenshot-31.png)
 
 ---
 
@@ -317,19 +317,19 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 1 — Output of `sudo nginx -t` showing the syntax error (broken config)
 
-![Assignment 06 Screenshot](screenshots/week-03-screenshot-32.png)
+![Assignment 03 Screenshot](screenshots/week-03-screenshot-32.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
 
-![Assignment 06 Screenshot](screenshots/week-03-screenshot-33.png)
+![Assignment 03 Screenshot](screenshots/week-03-screenshot-33.png)
 
 ---
 
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-![Assignment 06 Screenshot](screenshots/week-03-screenshot-34.png)
+![Assignment 03 Screenshot](screenshots/week-03-screenshot-34.png)
 
 ---
 
@@ -365,13 +365,13 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-![Assignment 07 Screenshot](screenshots/week-03-screenshot-35.png)
+![Assignment 03 Screenshot](screenshots/week-03-screenshot-35.png)
 
 ---
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-![Assignment 07 Screenshot](screenshots/week-03-screenshot-36.png)
+![Assignment 03 Screenshot](screenshots/week-03-screenshot-36.png)
 
 ---
 
@@ -458,7 +458,7 @@ Paste your LinkedIn post URL here:
 
 #### Screenshot — Published LinkedIn post
 
-![Assignment 07 Screenshot](screenshots/week-03-screenshot-37.png)
+![Assignment 03 Screenshot](screenshots/week-03-screenshot-37.png)
 
 ---
 
