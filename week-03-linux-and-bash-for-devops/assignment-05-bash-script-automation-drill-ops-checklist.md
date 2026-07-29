@@ -70,8 +70,8 @@ A **shell** is a program that provides an interface between the user and the ope
 
 **In simple terms:**
 
-- **Shell** is the general concept or interface for running commands.
-- **Bash** is one specific shell that provides many additional features and is commonly used for Linux administration and DevOps automation.
+* **Shell** is the general concept or interface for running commands.
+* **Bash** is one specific shell that provides many additional features and is commonly used for Linux administration and DevOps automation.
 
 ---
 
@@ -321,7 +321,6 @@ because Bash interprets:
 **Why this matters in DevOps:**
 DevOps engineers rely heavily on variables in automation scripts for configuration values, file paths, environment settings, and deployment parameters. Using the correct assignment syntax (`variable=value`) helps ensure scripts execute consistently across different systems and environments. 🚀
 
-
 ---
 
 **3. How do you access the value stored inside a Bash variable?**
@@ -507,7 +506,6 @@ Connecting to web3
 **Why this matters in DevOps**
 
 DevOps engineers often need to perform the same operation on multiple resources, such as deploying applications to several servers, backing up multiple directories, or monitoring different services. Arrays make these tasks easier by storing all related items in one place and processing them efficiently with loops, reducing manual effort and improving automation. 🚀
-
 
 ---
 
@@ -1570,28 +1568,28 @@ Paste your LinkedIn post URL here:
 
 # Submission Instructions
 
-- Add all required screenshots in your submission
-- Full name must be visible in required screenshots
-- All script files must be created and run successfully
-- Required notes must be answered clearly for every task
-- Do not expose sensitive information (keys, passwords, credentials)
+* Add all required screenshots in your submission
+* Full name must be visible in required screenshots
+* All script files must be created and run successfully
+* Required notes must be answered clearly for every task
+* Do not expose sensitive information (keys, passwords, credentials)
 
 ---
 
 # Completion Checklist
 
-- [ ] Task 1: Environment setup verified, workspace created (Screenshots 1–2, Notes answered)
-- [ ] Task 2: First script created, executed, permissions verified (Screenshots 1–3, Notes answered)
-- [ ] Task 3: Variables script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 4: Arrays and loops script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 5: Counter loop script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 6: File validation script created and run (Screenshots 1–3, Notes answered)
-- [ ] Task 7: Pass/Retry conditional script tested with both values (Screenshots 1–4, Notes answered)
-- [ ] Task 8: Final automation script created and run (Screenshots 1–3, Notes answered)
-- [ ] All scripts run without errors
-- [ ] Full Name visible in all required screenshots
-- [ ] LinkedIn post published and URL submitted
-- [ ] No sensitive data exposed
+* [ ] Task 1: Environment setup verified, workspace created (Screenshots 1–2, Notes answered)
+* [ ] Task 2: First script created, executed, permissions verified (Screenshots 1–3, Notes answered)
+* [ ] Task 3: Variables script created and run (Screenshots 1–2, Notes answered)
+* [ ] Task 4: Arrays and loops script created and run (Screenshots 1–2, Notes answered)
+* [ ] Task 5: Counter loop script created and run (Screenshots 1–2, Notes answered)
+* [ ] Task 6: File validation script created and run (Screenshots 1–3, Notes answered)
+* [ ] Task 7: Pass/Retry conditional script tested with both values (Screenshots 1–4, Notes answered)
+* [ ] Task 8: Final automation script created and run (Screenshots 1–3, Notes answered)
+* [ ] All scripts run without errors
+* [ ] Full Name visible in all required screenshots
+* [ ] LinkedIn post published and URL submitted
+* [ ] No sensitive data exposed
 
 ---
 
@@ -1605,13 +1603,13 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ## 📌 Resources
 
-- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
-- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
-- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
-- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
+* 🌐 DMI Official Website: <https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme>  
+* 🎓 University: <https://university.pravinmishra.com?utm_source=github&utm_medium=readme>  
+* 💬 Discord Community: <https://discord.pravinmishra.com?utm_source=github&utm_medium=readme>  
+* 📝 Blog: <https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme>  
+* ▶️ YouTube Playlist: <https://www.youtube.com/playlist?list=PLFeSNDtI4Cho>  
+* 🔗 Pravin Mishra (LinkedIn): <https://www.linkedin.com/in/pravin-mishra-aws-trainer/>  
+* 🏢 CloudAdvisory (LinkedIn): <https://www.linkedin.com/company/thecloudadvisory/>
 
 ---
 
