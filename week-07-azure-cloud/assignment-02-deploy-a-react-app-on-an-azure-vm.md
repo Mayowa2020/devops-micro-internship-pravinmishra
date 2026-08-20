@@ -20,7 +20,7 @@ Create the Azure Resource Group `react-app-rg` in a region close to you.
 
 #### Screenshot 1 — Resource Group overview showing the name and region
 
-Add your screenshot here.
+![Azure portal displaying a resource group named react-app-rg in a specified region, with overview details visible](screenshots/week-07-screenshot-03.png)
 
 ---
 
@@ -34,13 +34,13 @@ Create an Ubuntu 20.04 LTS VM (size B1s) with a Network Security Group allowing 
 
 #### Screenshot 2 — Azure VM overview page showing the VM name, Resource Group, and region
 
-Add your screenshot here.
+![Azure portal VM overview page displaying the virtual machine name, associated resource group react-app-rg, and deployment region details](screenshots/week-07-screenshot-04.png)
 
 ---
 
 #### Screenshot 3 — Network Security Group inbound rules showing ports 22 and 80 allowed
 
-Add your screenshot here.
+![Azure portal Network Security Group inbound rules configuration showing SSH port 22 restricted to specified IP address and HTTP port 80 allowed for public access](screenshots/week-07-screenshot-05.png)
 
 ---
 
@@ -54,7 +54,7 @@ Connect to the VM over SSH and confirm the Linux prompt is visible.
 
 #### Screenshot 4 — Terminal showing a successful SSH login with the prompt visible
 
-Add your screenshot here.
+![Terminal window displaying successful SSH connection to the Azure VM with the Linux command prompt visible and system information displayed](screenshots/week-07-screenshot-06.png)
 
 ---
 
@@ -68,7 +68,7 @@ Update Ubuntu and install Git, Node.js, and npm.
 
 #### Screenshot 5 — Terminal output showing `node -v` and `npm -v`
 
-Add your screenshot here.
+![Terminal window showing command outputs confirming Node.js and npm are installed with their respective version numbers displayed](screenshots/week-07-screenshot-05.png)
 
 ---
 
@@ -82,7 +82,7 @@ Clone `my-react-app`, install dependencies, and run `npm run build` to produce t
 
 #### Screenshot 6 — Terminal showing successful `npm run build` completion and `ls -la build` output
 
-Add your screenshot here.
+![Terminal window displaying successful React app build completion message and directory listing of the build folder showing generated production files](screenshots/week-07-screenshot-08.png)
 
 ---
 
@@ -96,13 +96,13 @@ Install Nginx and configure it to serve the `build/` directory with `try_files $
 
 #### Screenshot 7 — Successful `sudo nginx -t` output
 
-Add your screenshot here.
+![Terminal window showing successful Nginx configuration test output confirming syntax is valid](screenshots/week-07-screenshot-09.png)
 
 ---
 
 #### Screenshot 8 — Nginx configuration snippet showing the build root and `try_files` directive
 
-Add your screenshot here.
+![Nginx configuration file excerpt showing the root directory pointing to the React build folder and the try_files directive configured for single-page application routing](screenshots/week-07-screenshot-10.png)
 
 ---
 
@@ -116,7 +116,7 @@ Confirm the React app loads through the VM's public IP, navigation works, and a 
 
 #### Screenshot 9 — Browser showing the React app with the public IP visible in the address bar
 
-Add your screenshot here.
+![Web browser window displaying the deployed React application with the Azure VM public IP address visible in the address bar and the app running successfully](screenshots/week-07-screenshot-11.png)
 
 ---
 
@@ -130,7 +130,7 @@ Restrict the SSH Network Security Group rule to your IP if not already restricte
 
 #### Screenshot 10 (optional) — Network Security Group rule showing SSH restricted to your IP
 
-Add your screenshot here.
+![Azure portal Network Security Group inbound rules page displaying the SSH port 22 rule restricted to a specific IP address for enhanced security](screenshots/week-07-screenshot-12.png)
 
 ---
 
@@ -165,13 +165,13 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ## 📌 Resources
 
-- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
-- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
-- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
-- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
+- 🌐 DMI Official Website: <https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme>  
+- 🎓 University: <https://university.pravinmishra.com?utm_source=github&utm_medium=readme>  
+- 💬 Discord Community: <https://discord.pravinmishra.com?utm_source=github&utm_medium=readme>  
+- 📝 Blog: <https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme>  
+- ▶️ YouTube Playlist: <https://www.youtube.com/playlist?list=PLFeSNDtI4Cho>  
+- 🔗 Pravin Mishra (LinkedIn): <https://www.linkedin.com/in/pravin-mishra-aws-trainer/>  
+- 🏢 CloudAdvisory (LinkedIn): <https://www.linkedin.com/company/thecloudadvisory/>
 
 ---
 

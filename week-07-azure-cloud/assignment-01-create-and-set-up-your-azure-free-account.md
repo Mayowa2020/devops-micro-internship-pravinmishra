@@ -36,7 +36,7 @@ Confirm successful Azure Portal access and Locate the required services and subs
 
 #### Screenshot 2 — "Subscriptions" section showing the "Free Trial" subscription
 
-![Azure Portal Subscriptions page showing the Free Trial subscription in the Microsoft Azure account overview. The page shows a list of subscriptions and a highlighted Free Trial entry, indicating the active trial account. Text in the image includes Azure, Subscriptions, and Free Trial.](screenshots/week-05-screenshot-02.png)
+![Azure Portal Subscriptions page showing the Free Trial subscription in the Microsoft Azure account overview. The page shows a list of subscriptions and a highlighted Free Trial entry, indicating the active trial account. Text in the image includes Azure, Subscriptions, and Free Trial.](screenshots/week-07-screenshot-02.png)
 
 ---
 
