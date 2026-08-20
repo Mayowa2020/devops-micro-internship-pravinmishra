@@ -20,7 +20,7 @@ Create or access your Jira Cloud account and reach the Jira Software workspace s
 
 #### Screenshot 1 — Jira welcome page, dashboard, or main workspace after successful login, with your name or avatar visible
 
-![Assignment 01 Screenshot](screenshots/week-05-screenshot-01.png)
+
 
 ---
 
@@ -81,7 +81,7 @@ Locate the project list and open a project's Board or Backlog, and view Project 
 ![Assignment 01 Screenshot](screenshots/week-05-screenshot-04.png)
 
 ---
-
+![Assignment 01 Screenshot](screenshots/week-05-screenshot-01.png)
 # Submission Instructions
 
 - Add all five required screenshots, unless separate email verification was not required

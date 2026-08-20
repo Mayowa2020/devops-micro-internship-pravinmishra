@@ -20,7 +20,7 @@ Download or clone the portfolio website template from GitHub and confirm `index.
 
 #### Screenshot 1 — File Explorer or terminal showing the template folder contents with `index.html` visible
 
-Add your screenshot here.
+![Windows File Explorer showing the Pravin-Mishra-Portfolio-main folder contents with index.html highlighted and visible in the file list. The folder includes images, privacy.html, README.md, style.css, and terms.html.](screenshots/week-06-screenshot-02.png)
 
 ---
 
@@ -34,7 +34,8 @@ Create a globally unique S3 bucket in your chosen AWS region.
 
 #### Screenshot 2 — S3 bucket created screen showing the bucket name and region
 
-Add your screenshot here.
+![AWS S3 console showing a newly created bucket named pravin-portfolio-adebukunola-oyetimehin-eu-north-1  in the selected region, with the bucket overview page visible.](screenshots/week-06-screenshot-03.png)
+
 
 ---
 
@@ -48,7 +49,7 @@ Upload the contents of the template folder (not the folder itself) so `index.htm
 
 #### Screenshot 3 — S3 bucket Objects view showing `index.html` at the top or root level
 
-Add your screenshot here.
+![AWS S3 Objects view for the portfolio bucket, with the root folder listing files such as index.html, privacy.html, style.css, and terms.html. The main page shows the website files at the top level, ready for static hosting.](screenshots/week-06-screenshot-04.png)
 
 ---
 
@@ -62,7 +63,7 @@ Enable S3 Static Website Hosting with `index.html` as the index document and `er
 
 #### Screenshot 4 — Static website hosting enabled screen showing the Website endpoint
 
-Add your screenshot here.
+![Amazon S3 bucket settings page for pravin-portfolio-adebukunola-oyetimehin-eu-north-1 showing static website hosting enabled. A green success banner at the top reads Successfully edited static website hosting. The Static website hosting section is highlighted, with Hosting type listed as Bucket hosting and Bucket website endpoint shown as http://pravin-portfolio-adebukunola-oyetimehin-eu-north-1.s3-website.eu-north-1.amazonaws.com.](screenshots/week-06-screenshot-05.png)
 
 ---
 
@@ -76,7 +77,7 @@ Adjust Block Public Access settings and save a bucket policy that grants public 
 
 #### Screenshot 5 — Bucket policy page showing the policy saved successfully, with the bucket name visible
 
-Add your screenshot here.
+![AWS S3 bucket policy page for the bucket pravin-portfolio-adebukunola-oyetimehin-eu-north-1. A green success banner across the top reads Successfully edited bucket policy. The page includes the heading Block public access bucket settings, the bucket name in the breadcrumb path Amazon S3 > Buckets > pravin-portfolio-adebukunola-oyetimehin-eu-north-1, and a Bucket policy panel showing a JSON policy with Statement containing Sid PublicReadGetObject, Effect Allow, Principal *, Action s3:GetObject, and Resource arn:aws:s3:::pravin-portfolio-adebukunola-oyetimehin-eu-north-1/*.](screenshots/week-06-screenshot-06.png)
 
 ---
 
@@ -90,7 +91,7 @@ Load the site through the S3 website endpoint and confirm the homepage, images, 
 
 #### Screenshot 6 — Browser showing the live website with the S3 website endpoint visible in the address bar
 
-Add your screenshot here.
+![Browser window showing the live S3 hosted portfolio website with the address bar displaying pravin-portfolio-adebukunola-oyetimehin-eu-north-1.s3-website.eu-north-1.amazonaws.com. The website has a dark top navigation bar with Home, University, Blog, Book, Program, and Contact links. A large hero section shows a close-up portrait of the portfolio owner in a light suit, arms crossed, with a turquoise outline around the figure and a collage of student headshots behind him. Large white text across the image reads Empowering thousands of students towards success.](screenshots/week-06-screenshot-07.png)
 
 ---
 
@@ -104,7 +105,7 @@ Edit a small visible detail, re-upload it to S3, and confirm the change appears 
 
 #### Screenshot 7 (optional) — Before and after views, or a browser view showing the updated text
 
-Add your screenshot here.
+![Browser window showing the live S3 hosted portfolio website with the address bar displaying pravin-portfolio-adebukunola-oyetimehin-eu-north-1.s3-website.eu-north-1.amazonaws.com. The top bar includes a secure website URL and navigation links Home, University, Blog, Book, Program, and Contact. Below, a large hero section shows a close-up portrait of a man in a light suit with his arms crossed, surrounded by a collage of student headshots. Large white text across the image reads Empowering thousands of students to succeed.](screenshots/week-06-screenshot-08.png)
 
 ---
 

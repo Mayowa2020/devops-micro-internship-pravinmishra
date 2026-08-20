@@ -52,7 +52,7 @@ Start the web server and confirm the Mini Finance website is accessible through 
 
 Take one screenshot showing the Mini Finance website running in the browser.
 
-Add your screenshot here.
+![Assignment 03 Screenshot](screenshots/week-06-screenshot-05.png)
 
 ---
 
