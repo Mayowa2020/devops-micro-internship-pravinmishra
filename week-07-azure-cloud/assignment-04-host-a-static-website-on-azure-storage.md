@@ -50,7 +50,7 @@ Open the primary endpoint URL and confirm the Mini Finance application, styling,
 
 #### Screenshot 1 — Mini Finance website running in the browser
 
-Add your screenshot here.
+![Mini Finance dashboard homepage in a web browser showing a left sidebar, a main Overview panel with a balance card reading $254,800, a History chart, and a profile panel on the right. The page uses a soft blue and white color scheme, with a clean financial dashboard layout and browser chrome at the top. Text in the image includes Mini Finance — Simple Personal Budget Tracker, Overview, Track expenses, spot trends, and stay on budget — fast., YOUR BALANCE, $254,800, and History.](screenshots/week-07-screenshot-13.png)
 
 ---
 
@@ -58,7 +58,7 @@ Add your screenshot here.
 
 Paste the Azure Storage static website URL here:
 
-`Add your URL here`
+`https://minifinanceoyetimehin.z1.web.core.windows.net/`
 
 ---
 
