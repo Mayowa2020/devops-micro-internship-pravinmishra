@@ -52,7 +52,7 @@ Start the web server and confirm the Mini Finance website is accessible through 
 
 Take one screenshot showing the Mini Finance website running in the browser.
 
-![Assignment 03 Screenshot](screenshots/week-06-screenshot-05.png)
+![Mini Finance dashboard opened in a browser on the EC2 public IP page, the browser address bar shows 54.216.172.254.](screenshots/week-06-screenshot-09.png)
 
 ---
 
@@ -60,7 +60,7 @@ Take one screenshot showing the Mini Finance website running in the browser.
 
 Paste the public IP address of your EC2 instance here (e.g. `http://3.91.105.10`):
 
-`Add your URL here`
+`http://54.216.172.254/`
 
 ---
 
