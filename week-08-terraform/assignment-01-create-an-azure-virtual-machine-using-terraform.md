@@ -92,6 +92,11 @@ Review the Terraform execution plan and provision the Azure resources.
 #### Screenshot 9 — Terraform output showing the public IP address of the VM
 
 ![Assignment 01 Screenshot](screenshots/week-08-screenshot-09.png)
+
+### Question
+
+VM Public IP Address: [Enter the public IP shown by terraform output]
+
 ---
 
 # Task 4 — Verify the Deployment
