@@ -13,7 +13,7 @@
 ## About Me
 
 | | |
-|---|---|
+| --- | --- |
 | **Name** | Adebukunola Oyetimehin |
 | **LinkedIn** | [bukky-oyetimehin](https://www.linkedin.com/in/bukky-oyetimehin/) |
 | **Location** | Lagos, Nigeria |
@@ -116,7 +116,7 @@ This is not a course. It is an internship-style program — real deployments, re
 ## Program Overview
 
 | Phase | Weeks | Focus |
-|-------|-------|-------|
+| ------- | ------- | ------- |
 | Foundation | 00 – 02 | Networking, Mindset, Agentic AI |
 | Core DevOps | 03 – 05 | Linux & Bash, Git, DevOps Lifecycle |
 | Cloud | 06 – 07 | AWS & Azure Real Deployments |
@@ -129,16 +129,16 @@ This is not a course. It is an internship-style program — real deployments, re
 ## Weekly Progress
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
-|------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/bukky-oyetimehin_activity-7442846397105717249-pQpB?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI | https://cloudcraftjournal.hashnode.dev/building-the-engineer-before-building-the-technology |
-| 01 | Success Mindset | ✅ Completed| ✅ Completed | (https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-activity-7478910893507141633-HHOv?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI) | https://cloudcraftjournal.hashnode.dev/building-the-engineer-before-building-the-technology?utm_source=hashnode&utm_medium=feed |
-| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-share-7481150569836093440-_8ZF/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI | https://cloudcraftjournal.hashnode.dev/beyond-prompts-my-first-steps-into-agentic-ai |
-| 03 | Linux & Bash for DevOps | ✅ Completed | ⏳ Pending | https://www.linkedin.com/posts/bukky-oyetimehin_dmi-dmicohort3-devops-share-7483951078753935360-X-80/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI | https://cloudcraftjournal.hashnode.dev/week-3-linux-security-and-nginx |
-| 04 | Git & GitHub | ✅ Completed | ⏳ Pending | https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-git-activity-7485160903928213506-YcN7?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI | https://cloudcraftjournal.hashnode.dev/from-git-basics-to-professional-github-collaboration |
+| ------ | ------- | -------- | ------------ | --------------- | ----------- |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | <https://www.linkedin.com/posts/bukky-oyetimehin_activity-7442846397105717249-pQpB?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI> | <https://cloudcraftjournal.hashnode.dev/building-the-engineer-before-building-the-technology> |
+| 01 | Success Mindset | ✅ Completed | ✅ Completed | (<https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-activity-7478910893507141633-HHOv?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI>) | <https://cloudcraftjournal.hashnode.dev/building-the-engineer-before-building-the-technology?utm_source=hashnode&utm_medium=feed> |
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | <https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-share-7481150569836093440-_8ZF/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI> | <https://cloudcraftjournal.hashnode.dev/beyond-prompts-my-first-steps-into-agentic-ai> |
+| 03 | Linux & Bash for DevOps | ✅ Completed | ⏳ Pending | <https://www.linkedin.com/posts/bukky-oyetimehin_dmi-dmicohort3-devops-share-7483951078753935360-X-80/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI> | <https://cloudcraftjournal.hashnode.dev/week-3-linux-security-and-nginx> |
+| 04 | Git & GitHub | ✅ Completed | ⏳ Pending | <https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-git-activity-7485160903928213506-YcN7?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI> | <https://cloudcraftjournal.hashnode.dev/from-git-basics-to-professional-github-collaboration> |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
-| 08 | Terraform | ⬜ Not Started | ⏳ Pending | https://www.linkedin.com/posts/bukky-oyetimehin_dmi-dmicohort3-aws-activity-7505028255293546496-rK1P?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI | — |
-| 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
+| 08 | Terraform | ⬜ Not Started | ⏳ Pending | <https://www.linkedin.com/posts/bukky-oyetimehin_dmi-dmicohort3-aws-activity-7505028255293546496-rK1P?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI> | — |
+| 09 | Ansible | ⬜ Not Started | ⏳ Pending | <https://lnkd.in/p/ekJn7eaC> | — |
 | 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
@@ -163,5 +163,5 @@ If you found this repo useful or want to follow my DevOps journey:
 
 - ⭐ Star this repo
 - 🔗 Connect with me on [LinkedIn](#)
-- 🌐 Learn more about the program: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme
-- 💬 Join the community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme
+- 🌐 Learn more about the program: <https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme>
+- 💬 Join the community: <https://discord.pravinmishra.com?utm_source=github&utm_medium=readme>
