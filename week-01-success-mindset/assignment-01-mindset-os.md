@@ -4,13 +4,13 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 
-## Purpose (Read This First)
+## Task 1 — A Belief You Hold
 
-This week is not motivation homework.
+### Question
 
-This is you building your **Mindset OS** — the system you will use for the next 5 months (and honestly, for years).
+What is something you believe to be true that most people around you would disagree with?
 
-### Expectations
+Write at least **50 words**. Be honest, specific, and use clear professional sentences.
 
 * Be honest.
 * Be specific.
@@ -71,47 +71,35 @@ Technology is more than a profession for me—it is a genuine passion. I cannot 
 
 ### Definition
 
-Objective truths do not depend on opinions. They hold true regardless of how people feel.
+Write three objective truths you discovered through your own actions and results. For each truth, include one sentence for the truth and two to four lines of evidence from your life.
 
-Write each truth in this format:
+### Truth #1
 
-**Truth:** (1 sentence)
-
-**Evidence from my life:** (2–4 lines: what you tried + what happened)
-
----
-
-## Truth #1
-
-### Truth
+**Truth**
 
 **Change is inevitable, but choosing to grow from it is a personal decision**, and I believe **adaptability** is one of the most valuable skills anyone can develop.
 
-### Evidence from my life
+**Evidence from My Life**
 
 After losing a well-paying job, I endured years of uncertainty and several unsuccessful ventures before discovering an online **Full Stack Development** bootcamp. Although I already had experience in **IT Support**, I embraced the challenge, persevering through an intensive program filled with demanding coursework and countless sleepless nights. My dedication paid off when I completed the bootcamp and was offered a job by the program convener, bringing an end to a **six-year period of unemployment**. That experience reinforced my belief that **resilience, continuous learning, and adaptability** have the power to transform setbacks into opportunities and unlock new possibilities for growth.
 
----
+### Truth #2
 
-## Truth #2
-
-### Truth
+**Truth**
 
 Learning does not end with formal education or a job title; it is an ongoing commitment.
 
-### Evidence from my life
+**Evidence from My Life**
 
 Individuals who wish to remain at the forefront of their respective fields must actively engage in ongoing learning, cultivate curiosity, and consistently enhance their knowledge and skills. This principle has become evident to me in my current role, where I have been entrusted with diverse responsibilities that encourage my growth.
 
----
+### Truth #3
 
-## Truth #3
-
-### Truth
+**Truth**
 
 Certifications are valuable, but they are not a substitute for practical experience.
 
-### Evidence from my life
+**Evidence from My Life**
 
 True expertise is developed by applying knowledge in real-world environments, solving complex problems, learning from setbacks, and adapting to diverse roles and responsibilities. While certifications validate foundational knowledge, experience is what transforms that knowledge into practical competence.
 
@@ -127,63 +115,48 @@ Write as if a journalist is writing about you **3 to 7 years from now** (not 20 
 
 **Minimum 300 words.**
 
-### Rules
+Write and publicly publish an article about your future professional self, written as if a journalist is writing about you **3–7 years from now**.
 
-* Write in past tense, like it already happened.
-* Don't use "likes to / wants to / hopes to."
-* Use specifics:
+Your article must:
 
-  * built
-  * shipped
-  * led
-  * published
-  * earned
-  * relocated
-  * contributed
-* Include skills proof:
+* Be at least **300 words**.
+* Be written in the **past tense**, as if it has already happened.
+* Include specific proof such as projects, portfolio, GitHub, blogs, certifications, job role, leadership, or community contribution.
+* Be published on LinkedIn, Medium, WordPress, Blogspot, a personal blog, or a portfolio page.
 
-  * projects
-  * portfolios
-  * GitHub
-  * blogs
-  * certifications
-  * job role
-  * leadership
-  * community contribution
-* Add 1–3 images if you can (optional but powerful).
+### My Article
 
-### Publish It Publicly On Any ONE
+Paste your complete article here...
 
-* LinkedIn
-* Medium
-* WordPress
-* Blogspot
-* Personal blog
-* Portfolio page
+### Public Article URL
 
-Use the credit note that matches your track:
+```text
+Paste your published article URL here...
+```
 
-Add the following credit note at the end of your post **(If you are DMI Cohort 3 student)**:
+### LinkedIn Post URL
 
-> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
+Create a LinkedIn post sharing your published article, then add the URL below.
 
-**Tag [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) in your LinkedIn post, then tag Lead Co-Mentor — [Anjana Muthunayake](https://www.linkedin.com/in/anjana-muthunayake/).**
+```text
+Paste your LinkedIn post URL here...
+```
 
-Add the following credit note at the end of your post **(If you are DMI Self-paced track student)**:
+### Credit Note — DMI Self-Paced Engineer Track Students
 
-> **P.S. This post is part of the DevOps Micro Internship (DMI) — Self-Paced Engineer Track — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=self-paced**
+Add this credit note at the end of your public article. Replace `YOUR-GITHUB-USERNAME` with your actual GitHub username.
 
-Add the following credit note at the end of your post **(If you are DMI Campus student)**:
+> **P.S. This post is part of the DevOps Micro Internship (DMI) — Self-Paced Engineer Track — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public:** https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html **· Start your DevOps journey:** https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=self-paced
 
-> **P.S. This post is part of the DevOps Micro Internship (DMI) — Campus — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=campus**
+`#DMIByPravinMishra`
 
-**Tag [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) in your LinkedIn post, then tag Lead Co-Mentor — [Anjana Muthunayake](https://www.linkedin.com/in/anjana-muthunayake/).**
+Tag [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) in your LinkedIn post.
 
-Hashtags:
+### Credit Note — DMI Campus Students
 
-#DMIByPravinMishra #AgenticAI #DevOps
+Add this credit note at the end of your public article. Replace `YOUR-GITHUB-USERNAME` with your actual GitHub username.
 
-## Your Article
+> **P.S. This post is part of the DevOps Micro Internship (DMI) — Campus — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public:** https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html **· Start your DevOps journey:** https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=campus
 
 ## My Vision 2.0
 
@@ -243,33 +216,21 @@ Paste your link here:
 
 ---
 
-# Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
+## Task 4 — Reflection on Cutting Corners
 
-### Important
+### Question
 
-You don't need to write the full story.
+Have you ever cut corners through unethical, dishonest, or shortcut behaviour (not necessarily illegal)? If yes, how did it make you feel?
 
-Focus on the feeling:
+You do not need to tell the full story. Focus on the emotions you experienced. If your answer is yes, write **50–100 words**.
 
-* guilt
-* fear
-* shame
-* stress
-* regret
-* numbness
-* etc.
+### Your Answer
 
-This is about self-awareness, not judgment.
+**Yes / No:**
 
-### Answer Format
+Add your answer here...
 
-**Yes / No**
-
-If Yes:
-
-**What emotion did you feel?** (minimum 50–100 words)
-
-## Answer
+**Reflection:**
 
 **Yes!** I was left with a heavy sense of guilt, shame, and regret.
 
@@ -295,7 +256,7 @@ Choose books that improve:
 * career
 * leadership
 
-## Book List
+List **10 non-fiction books** you plan to read during the next year. Include the title and author of each book. Books in any language are allowed.
 
 1. **Atomic Habits — James Clear** ![Assignment 5 Screenshot](screenshots/week-01-screenshot-02.webp)
 2. **Deep Work — Cal Newport** ![Assignment 5 Screenshot](screenshots/week-01-screenshot-03.webp)
@@ -313,28 +274,11 @@ Choose books that improve:
 
 ## Assignment 6. What are the things you will measure regularly in your life and career?
 
-### Rules
+List the things you will measure regularly in your life and career. You only need to list the metric topics; do not include personal numbers.
 
-List topics only. No need to share numbers.
+Your list must include learning or skills, output or proof, health or energy, time or focus, and money or finance.
 
-### Must Include
-
-* Learning / skill
-* Output / proof
-* Health / energy
-* Time / focus
-* Money / finance (personal or business)
-
-### Example
-
-* Learning hours per week
-* Deep work sessions per week
-* Projects shipped / documented
-* Steps / workouts
-* Sleep hours
-* Spending tracker
-
-## My Metrics
+### My Metrics
 
 * Sleep hours
 * Exercise days per week
@@ -365,11 +309,11 @@ Examples:
 * Ideas
 * Responsibilities
 
-### Did You Do It?
+### Step 1 — Brain Dump (Private)
 
-**Yes / No**
+Do a private brain dump in a notebook, notes app, or document. Include everything currently on your mind, such as tasks, bills, worries, goals, pending messages, ideas, and responsibilities.
 
-Answer:
+**Did you create a brain dump?**
 
 Yes
 
@@ -377,15 +321,7 @@ Yes
 
 ## Step 2: Your 5-Month Routine + Focus Blocks
 
-Create a simple plan you can realistically follow for the next 5 months.
-
-### Weekly Routine
-
-Example:
-
-* Mon–Thu: 60 min deep work
-* Sat: DMI session
-* Sun: Weekly review
+### Step 2 — My Three-Month Routine and Focus Blocks
 
 #### My Weekly Routine
 
@@ -407,27 +343,13 @@ I will ask myself:
 * What should I stop doing?
 * What should I do more?
 
----
-
-### Focus Blocks
-
-#### When Will You Do DMI Work? (Days + Time)
+#### When Will I Complete My DMI Work? (Include Days and Time)
 
 Mon-Wed (12noon-3pm)
 
-#### How Many Sessions Per Week?
+#### How Many DMI Work Sessions Will I Complete Each Week?
 
 3 Sessions Per Week
-
----
-
-### Distraction Rules
-
-Examples:
-
-* Phone rules
-* Social media rules
-* Environment setup
 
 #### My Distraction Rules
 
@@ -445,9 +367,9 @@ Examples:
 
 ---
 
-# Reflection – Week 1
+## Task 8 — Week 1 Reflection and Proof of Work
 
-### Biggest insight I got about myself this week
+### Biggest Insight I Got About Myself This Week
 
 > **My next level won't come from learning more—it will come from demonstrating what I already know.**
 
@@ -457,7 +379,7 @@ Every project I build, every solution I ship, every GitHub commit, every article
 
 ---
 
-### My biggest weakness/loop I noticed
+### My Biggest Weakness or Loop I Noticed
 
 #### My Biggest Weakness: Over-Preparation Instead of Shipping
 
@@ -510,7 +432,7 @@ Improve
 Repeat
 ```
 
-### One system I will implement from this week (exact habit + time)
+### One System I Will Implement From This Week (Exact Habit and Time)
 
 #### My New Rule
 
@@ -547,15 +469,19 @@ I will adopt a simple ratio:
 
 This habit will help ensure your portfolio, GitHub, blog, and professional reputation grow alongside my knowledge. Over time, they'll become tangible evidence of the person my Vision 2.0 describes.
 
-### LinkedIn Post
+### Proof of Work
 
-Paste your LinkedIn post link here:
+**LinkedIn Post URL**
 
 `https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-cloudcomputing-share-7478900868457771008-6hut/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI`
 
----
+**Blog / Medium / Public Article URL**
 
-## 10. Proof of Work
+```text
+Paste your published article URL here...
+```
+
+---
 
 * LinkedIn Post URL:
   
@@ -564,6 +490,7 @@ Paste your LinkedIn post link here:
 * Blog / Medium : **(<https://cloudcraftjournal.hashnode.dev/building-the-engineer-before-building-the-technology>)**  
 
 ---
+
 
 ## 📌 About DMI & CloudAdvisory
 
