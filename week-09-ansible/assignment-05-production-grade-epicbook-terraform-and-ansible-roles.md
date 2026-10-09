@@ -24,7 +24,7 @@ Terraform will be used to provision the cloud infrastructure. Ansible roles will
 
 #### Screenshot 1 — Terminal showing the completed `epicbook-prod` project structure
 
-Add your screenshot here.
+![Assignment 04 Screenshot](screenshots/week-09-screenshot-58.png)
 
 ---
 
@@ -34,19 +34,19 @@ Answer the following in your own words:
 
 **1. Which cloud provider did you choose for this assignment?**
 
-Add your answer here.
+I chose **Microsoft Azure** as the cloud provider for this assignment. I used Azure because I have been working with Azure Terraform and Ansible in the previous assignments, so this allowed me to build on that experience while deploying EpicBook infrastructure.
 
 ---
 
 **2. Why is it useful to keep Terraform files and Ansible files in separate folders?**
 
-Add your answer here.
+Keeping Terraform and Ansible files in separate folders makes the project easier to understand, manage, and maintain. **Terraform is responsible for creating the infrastructure**, such as the VM, network, and database, while **Ansible is responsible for configuring the VM and deploying the application**. Separating them keeps these responsibilities clear and makes the deployment easier to troubleshoot and reuse.
 
 ---
 
 **3. What is the purpose of the `roles` directory in Ansible?**
 
-Add your answer here.
+The `roles` directory stores **reusable Ansible components**, with each role handling a specific responsibility. For example, in this assignment, the `common` role handles basic server setup, the `nginx` role configures Nginx, and the `epicbook` role deploys the application. This keeps the playbook organized, reusable, and easier to maintain.
 
 ---
 
@@ -62,25 +62,25 @@ Terraform will create the VM, managed MySQL database, networking, security rules
 
 #### Screenshot 2 — `terraform apply` completed successfully
 
-Add your screenshot here.
+![Assignment 04 Screenshot](screenshots/week-09-screenshot-59.png)
 
 ---
 
 #### Screenshot 3 — Output of `terraform output`
 
-Add your screenshot here.
+![Assignment 04 Screenshot](screenshots/week-09-screenshot-60.png)
 
 ---
 
 #### Screenshot 4 — Azure Portal or AWS Console showing the VM running
 
-Add your screenshot here.
+![Assignment 04 Screenshot](screenshots/week-09-screenshot-61.png)
 
 ---
 
 #### Screenshot 5 — Azure Portal or AWS Console showing the managed MySQL database created
 
-Add your screenshot here.
+![Assignment 04 Screenshot](screenshots/week-09-screenshot-62.png)
 
 ---
 

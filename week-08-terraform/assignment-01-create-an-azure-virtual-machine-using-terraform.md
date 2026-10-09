@@ -95,7 +95,7 @@ Review the Terraform execution plan and provision the Azure resources.
 
 ### Question
 
-VM Public IP Address: [Enter the public IP shown by terraform output]
+VM Public IP Address: [137.135.188.45]
 
 ---
 
@@ -137,7 +137,7 @@ Share your Terraform deployment progress on WhatsApp by using Screenshot 8, the 
 
 #### Screenshot 12 — Published WhatsApp Status showing your Terraform deployment progress and DMI Leaderboard progress link
 
-Add your screenshot here.
+![Assignment 01 Screenshot](screenshots/week-08-screenshot-72.png)
 
 > Ensure that no passwords, account IDs, subscription IDs, private phone numbers, or personal messages are visible.
 
@@ -185,13 +185,13 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ## 📌 Resources
 
-- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme
-- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme
-- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme
-- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme
-- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho
-- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/
-- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
+- 🌐 DMI Official Website: <https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme>
+- 🎓 University: <https://university.pravinmishra.com?utm_source=github&utm_medium=readme>
+- 💬 Discord Community: <https://discord.pravinmishra.com?utm_source=github&utm_medium=readme>
+- 📝 Blog: <https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme>
+- ▶️ YouTube Playlist: <https://www.youtube.com/playlist?list=PLFeSNDtI4Cho>
+- 🔗 Pravin Mishra (LinkedIn): <https://www.linkedin.com/in/pravin-mishra-aws-trainer/>
+- 🏢 CloudAdvisory (LinkedIn): <https://www.linkedin.com/company/thecloudadvisory/>
 
 ---
 

@@ -261,7 +261,7 @@ Add a screenshot of your published LinkedIn post showing:
 
 Ensure that no passwords, private keys, account IDs, access tokens, or other sensitive information are visible.
 
-Add your screenshot here.
+![Assignment 03 Screenshot](screenshots/week-08-screenshot-74.png)
 
 ---
 

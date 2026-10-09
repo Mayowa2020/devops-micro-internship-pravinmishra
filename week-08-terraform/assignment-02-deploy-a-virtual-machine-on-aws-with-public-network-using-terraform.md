@@ -166,7 +166,7 @@ Share your AWS Terraform deployment progress by using either Facebook or WhatsAp
 
 #### Screenshot 11 — Published Facebook post/Story or WhatsApp Status showing Terraform deployment progress and DMI Leaderboard progress link
 
-Add your screenshot here.
+![Assignment 02 Screenshot](screenshots/week-08-screenshot-73.png)
 
 > Use Screenshot 6 — successful `terraform apply` output — as the assignment image for your post or Status. Ensure that no AWS credentials, private keys, account IDs, private phone numbers, or personal messages are visible.
 
@@ -230,13 +230,13 @@ It helps learners build strong DevOps foundations through hands-on experience.
 
 ## 📌 Resources
 
-* 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme
-* 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme
-* 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme
-* 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme
-* ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho
-* 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/
-* 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
+* 🌐 DMI Official Website: <https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme>
+* 🎓 University: <https://university.pravinmishra.com?utm_source=github&utm_medium=readme>
+* 💬 Discord Community: <https://discord.pravinmishra.com?utm_source=github&utm_medium=readme>
+* 📝 Blog: <https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme>
+* ▶️ YouTube Playlist: <https://www.youtube.com/playlist?list=PLFeSNDtI4Cho>
+* 🔗 Pravin Mishra (LinkedIn): <https://www.linkedin.com/in/pravin-mishra-aws-trainer/>
+* 🏢 CloudAdvisory (LinkedIn): <https://www.linkedin.com/company/thecloudadvisory/>
 
 ---
 

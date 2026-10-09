@@ -138,7 +138,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | <https://www.linkedin.com/posts/bukky-oyetimehin_dmi-dmicohort3-aws-activity-7505028255293546496-rK1P?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI> | — |
-| 09 | Ansible | ⬜ Not Started | ⏳ Pending | <https://lnkd.in/p/ekJn7eaC> | — |
+| 09 | Ansible | ⬜ Not Started | ⏳ Pending | <https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-terraform-share-7514000852571803650-rdGG/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI> | — |
 | 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
