@@ -60,7 +60,7 @@ http://localhost:3000
 
 Ensure that your full name is visible in the application.
 
-![Assignment 01 Screenshot](screenshots/week-11-screenshot-13.png)
+![Assignment 02 Screenshot](screenshots/week-11-screenshot-13.png)
 
 ---
 
@@ -76,7 +76,7 @@ Create an optimized multi-stage Docker image with separate builder and Nginx run
 
 Add a screenshot showing the completed multi-stage `Dockerfile`.
 
-![Assignment 01 Screenshot](screenshots/week-11-screenshot-14.png)
+![Assignment 02 Screenshot](screenshots/week-11-screenshot-14.png)
 
 ---
 
@@ -90,7 +90,7 @@ http://localhost
 
 Ensure that your full name is visible in the application.
 
-![Assignment 01 Screenshot](screenshots/week-11-screenshot-15.png)
+![Assignment 02 Screenshot](screenshots/week-11-screenshot-15.png)
 
 ---
 
@@ -117,7 +117,7 @@ react-single:latest
 react-multistage:latest
 ```
 
-![Assignment 01 Screenshot](screenshots/week-11-screenshot-16.png)
+![Assignment 02 Screenshot](screenshots/week-11-screenshot-16.png)
 
 ---
 
@@ -228,7 +228,7 @@ Paste your LinkedIn post URL here:
 
 #### LinkedIn Post Screenshot
 
-![Assignment 01 Screenshot](screenshots/week-11-screenshot-17.png)
+![Assignment 02 Screenshot](screenshots/week-11-screenshot-17.png)
 
 ---
 

@@ -28,7 +28,7 @@ docker network ls
 
 The output must include the default `bridge`, `host`, and `none` networks.
 
-Add your screenshot here.
+![Assignment 03 Screenshot](screenshots/week-11-screenshot-18.png)
 
 ---
 
@@ -40,11 +40,11 @@ Add a screenshot of the terminal showing successful completion of:
 docker pull nginx:alpine
 ```
 
-Add your screenshot here.
+![Assignment 03 Screenshot](screenshots/week-11-screenshot-19.png)
 
 ---
 
-#### Screenshot 3 — Running `myweb` Container
+#### Screenshot 3 — docker pull nginx:alpine
 
 Add a screenshot of the terminal showing:
 
@@ -58,7 +58,7 @@ The output must show the running `myweb` container with:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+![Assignment 03 Screenshot](screenshots/week-11-screenshot-20.png)
 
 ---
 
@@ -67,12 +67,12 @@ Add your screenshot here.
 Add a browser screenshot showing the Nginx Welcome Page at:
 
 ```text
-http://<YOUR-VM-PUBLIC-IP>
+http://<20.127.27.0>
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![Assignment 03 Screenshot](screenshots/week-11-screenshot-21.png)
 
 ---
 
@@ -92,7 +92,7 @@ Add a screenshot of the terminal showing `mynetwork` in:
 docker network ls
 ```
 
-Add your screenshot here.
+![Assignment 03 Screenshot](screenshots/week-11-screenshot-22.png)
 
 ---
 
@@ -106,7 +106,7 @@ docker ps
 
 The output must show both `web` and `client` containers running without published host ports.
 
-Add your screenshot here.
+![Assignment 03 Screenshot](screenshots/week-11-screenshot-23.png)
 
 ---
 
@@ -120,7 +120,7 @@ docker exec client wget -qO- http://web
 
 The output must display the Nginx Welcome Page HTML.
 
-Add your screenshot here.
+![Assignment 03 Screenshot](screenshots/week-11-screenshot-24.png)
 
 ---
 
@@ -134,7 +134,7 @@ docker network inspect mynetwork
 
 The output must show both `web` and `client` connected to `mynetwork`.
 
-Add your screenshot here.
+![Assignment 03 Screenshot](screenshots/week-11-screenshot-25.png)
 
 ---
 
@@ -156,7 +156,7 @@ docker network ls
 
 The output must include both `frontend-network` and `backend-network`.
 
-Add your screenshot here.
+![Assignment 03 Screenshot](screenshots/week-11-screenshot-26.png)
 
 ---
 
@@ -174,7 +174,7 @@ The output must show:
 - `backend` without a published host port
 - `db` without a published host port
 
-Add your screenshot here.
+![Assignment 03 Screenshot](screenshots/week-11-screenshot-27.png)
 
 ---
 
@@ -188,7 +188,7 @@ docker network inspect frontend-network
 
 The output must show `frontend` and `backend`.
 
-Add your screenshot here.
+![Assignment 03 Screenshot](screenshots/week-11-screenshot-28.png)
 
 ---
 
@@ -202,7 +202,7 @@ docker network inspect backend-network
 
 The output must show `backend` and `db`.
 
-Add your screenshot here.
+![Assignment 03 Screenshot](screenshots/week-11-screenshot-29.png)
 
 ---
 
@@ -216,7 +216,7 @@ docker exec frontend wget -qO- http://backend
 
 The output must display the Nginx Welcome Page HTML.
 
-Add your screenshot here.
+![Assignment 03 Screenshot](screenshots/week-11-screenshot-30.png)
 
 ---
 
@@ -224,7 +224,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing a successful connection to `db` on port `27017` from the `backend` container.
 
-Add your screenshot here.
+![Assignment 03 Screenshot](screenshots/week-11-screenshot-31.png)
 
 ---
 
@@ -238,7 +238,7 @@ The output must include:
 Expected result: frontend cannot reach db
 ```
 
-Add your screenshot here.
+![Assignment 03 Screenshot](screenshots/week-11-screenshot-32.png)
 
 ---
 
@@ -252,7 +252,7 @@ http://<YOUR-VM-PUBLIC-IP>
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![Assignment 03 Screenshot](screenshots/week-11-screenshot-33.png)
 
 ---
 
@@ -274,7 +274,7 @@ docker ps
 
 The output must show the running `fastapp` container.
 
-Add your screenshot here.
+![Assignment 03 Screenshot](screenshots/week-11-screenshot-34.png)
 
 ---
 
@@ -292,7 +292,7 @@ The output must confirm:
 "NetworkMode": "host"
 ```
 
-Add your screenshot here.
+![Assignment 03 Screenshot](screenshots/week-11-screenshot-35.png)
 
 ---
 
@@ -306,7 +306,7 @@ http://<YOUR-VM-PUBLIC-IP>
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+[Assignment 03 Screenshot](screenshots/week-11-screenshot-36.png)
 
 ---
 
@@ -319,7 +319,7 @@ docker stop fastapp
 docker rm fastapp
 ```
 
-Add your screenshot here.
+[Assignment 03 Screenshot](screenshots/week-11-screenshot-37.png)
 
 ---
 
@@ -332,7 +332,109 @@ Write a short note explaining:
 - Why the frontend could not access the database in Task 3
 - The difference between bridge mode and host network mode
 
-Write your note here.
+### 1. Default Bridge Networking
+
+Docker's default bridge network allows containers to communicate with each other using their IP addresses. Containers can access external networks through the host, and ports can be published to make container services accessible from outside.
+
+### 2. Container-Name Communication on a Custom Bridge Network
+
+A custom bridge network provides automatic DNS resolution, allowing containers to communicate using their container names instead of IP addresses. This makes communication easier and more reliable when container IP addresses change.
+
+### 3. Why the Frontend Could Not Access the Database in Task 3
+
+The frontend was connected only to `frontend-network`, while the database was connected only to `backend-network`. Since the frontend and database did not share a network, they could not communicate directly. The backend connected to both networks, allowing it to communicate with both containers. However, Docker does not automatically forward traffic between networks; the backend application must handle requests between them.
+
+#### Backend Communication
+
+The `backend` container acts as the middle layer between the frontend and the database. It is connected to both Docker networks, while the frontend and database are connected to only one network each.
+
+Frontend container
+
+Connected to `frontend-network` only
+
+Backend container
+
+Connected to both networks
+
+Database container (`db`)
+
+Connected to `backend-network` only
+
+Logical application flow: frontend → backend → database
+
+#### How the communication works
+
+1. Frontend → Backend: The frontend sends a request to the backend using its container name, provided the backend application is listening on the relevant port.
+2. Backend → Database: The backend processes the request and connects to the database using the database container's name and database port, such as `db:3306` for MySQL.
+3. Database → Backend: The database returns the query results to the backend.
+4. Backend → Frontend: The backend sends a response to the frontend.
+
+#### Why can't the frontend connect directly to the database?
+
+The frontend and database do not share a Docker network. Therefore, the frontend cannot directly resolve or reach the database through Docker's network connectivity.
+
+Important distinction: Docker does not automatically route application requests through the backend just because it connects to both networks. The backend application must explicitly receive requests and make database connections.
+
+The backend container serves as an intermediary between the frontend and database. It connects to both `frontend-network` and `backend-network`, allowing it to communicate with the frontend on one network and the database on the other. The frontend sends requests to the backend, which processes them and queries the database when necessary. The database returns results to the backend, which then responds to the frontend. Since the frontend and database do not share a network, the frontend cannot access the database directly. This network separation improves isolation and supports a layered application architecture.
+
+#### How Backend Communication Works (Beginner-Friendly) 🐳
+
+Think of the backend as a waiter in a restaurant. The frontend is the customer, and the database is the kitchen where information is stored.
+
+Frontend — The Customer
+
+Requests information from the application.
+
+Connected to `frontend-network`
+
+Backend — The Waiter
+
+Receives the request and asks the database for information.
+
+Connected to both networks
+
+Database — The Kitchen
+
+Stores information and returns the requested data.
+
+Connected to `backend-network`
+
+The response travels back from the database through the backend to the frontend.
+
+#### Why can't the frontend talk directly to the database?
+
+Imagine the customer is not allowed into the kitchen. They must ask the waiter to get what they need.
+
+It's similar with our Docker networks:
+
+- The frontend can communicate with the backend because they share `frontend-network`.
+- The backend can communicate with the database because they share `backend-network`.
+- The frontend cannot directly communicate with the database because they are on separate networks.
+
+The backend must have an application running that receives requests from the frontend and communicates with the database. Docker does not automatically make the backend do this.
+
+The backend acts as a middleman between the frontend and the database. The frontend sends requests to the backend, and the backend communicates with the database to retrieve or store information. The database sends its response back to the backend, which then returns it to the frontend. The frontend cannot directly access the database because they are connected to different Docker networks. The backend is connected to both networks, allowing it to communicate with both containers. This setup improves network isolation and helps protect the database from direct access by the frontend.
+
+### 4. Difference Between Bridge Mode and Host Network Mode
+
+Bridge mode gives a container its own network interface and IP address, and port publishing (using `-p`) can expose its services. Host network mode shares the Linux host's network namespace, so the container uses the host's network interfaces and ports directly. It does not require port publishing, but services can experience port conflicts with applications running on the host.
+
+Your comparison is good. 👍 Here is a slightly more beginner-friendly and technically precise version for your DMI assignment.
+
+| Feature           | Bridge Network Mode 🌉                                                             | Host Network Mode 🖥️                                                               |
+| ----------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Network isolation | The container has its own network interface and private IP address.                | The container shares the host's network namespace.                                  |
+| Port mapping      | Use `-p` when you want to publish a container port on the host.                    | No `-p` is needed; the application uses the host's network ports directly.          |
+| Performance       | May add some networking overhead, depending on the traffic path and configuration. | Can reduce networking overhead because it avoids the usual bridge and NAT path.     |
+| Port conflicts    | Published host ports must be available.                                            | The application cannot use a host port that is already occupied by another service. |
+| Example command   | `docker run -d -p 8080:80 nginx:alpine`                                            | `docker run -d --network host nginx:alpine`                                         |
+
+#### Simple explanation
+
+- Bridge mode: Think of the container as a house with its own address. Docker manages how traffic gets in and out.
+- Host mode: Think of the container as using the host VM's network address and ports directly.
+
+Conclusion: Bridge mode provides network separation and flexible port publishing, while host mode offers more direct access to the host's networking and may reduce overhead. Host mode is not automatically faster in every situation, and its reduced network isolation can have security implications.
 
 ---
 
@@ -346,15 +448,16 @@ Create a LinkedIn post about the Docker networking modes explored, one key lesso
 
 #### LinkedIn Post URL
 
+!
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`(https://lnkd.in/p/eK3VBYip)`
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+[Assignment 03 Screenshot](screenshots/week-11-screenshot-38.png)
 
 ---
 
@@ -403,13 +506,13 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ## 📌 Resources
 
-- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
-- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
-- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
-- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
+- 🌐 DMI Official Website: <https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme>  
+- 🎓 University: <https://university.pravinmishra.com?utm_source=github&utm_medium=readme>  
+- 💬 Discord Community: <https://discord.pravinmishra.com?utm_source=github&utm_medium=readme>  
+- 📝 Blog: <https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme>  
+- ▶️ YouTube Playlist: <https://www.youtube.com/playlist?list=PLFeSNDtI4Cho>  
+- 🔗 Pravin Mishra (LinkedIn): <https://www.linkedin.com/in/pravin-mishra-aws-trainer/>  
+- 🏢 CloudAdvisory (LinkedIn): <https://www.linkedin.com/company/thecloudadvisory/>
 
 ---
 
