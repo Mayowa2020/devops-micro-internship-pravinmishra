@@ -26,7 +26,7 @@ Add a screenshot of the terminal showing successful completion of:
 docker pull nginx:alpine
 ```
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-39.png)
 
 ---
 
@@ -38,7 +38,7 @@ Add a screenshot of the terminal showing the created host directory:
 $HOME/nginx-logs
 ```
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-40.png)
 
 ---
 
@@ -56,7 +56,7 @@ The output must show the `myweb` container with:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-41.png)
 
 ---
 
@@ -70,7 +70,7 @@ http://<YOUR-VM-PUBLIC-IP>
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-42.png)
 
 ---
 
@@ -84,7 +84,7 @@ $HOME/nginx-logs
 
 The output must show `access.log`, `error.log`, and an access-log entry created when you opened the Nginx page.
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-43.png)
 
 ---
 
@@ -97,7 +97,7 @@ docker stop myweb
 docker rm myweb
 ```
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-44.png)
 
 ---
 
@@ -111,7 +111,7 @@ $HOME/nginx-logs
 
 The access log must retain its content after the container has been removed.
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-45.png)
 
 ---
 
@@ -127,7 +127,7 @@ Deploy backend and frontend containers that share data through a named Docker Vo
 
 Add a screenshot of the terminal showing the `two-tier-app` project structure, including separate `backend` and `frontend` directories with a `Dockerfile` and `index.js` file in each.
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-46.png)
 
 ---
 
@@ -139,7 +139,7 @@ Add a screenshot of the terminal showing `mynetwork` in:
 docker network ls
 ```
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-47.png)
 
 ---
 
@@ -151,7 +151,7 @@ Add a screenshot of the terminal showing `shared-data` in:
 docker volume ls
 ```
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-48.png)
 
 ---
 
@@ -159,15 +159,14 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the completed backend `Dockerfile`.
 
-Add your screenshot here.
-
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-49.png)
 ---
 
 #### Screenshot 12 — Backend Image Build
 
 Add a screenshot of the terminal showing successful completion of the `backend-app:latest` image build.
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-50.png)
 
 ---
 
@@ -181,7 +180,7 @@ docker ps
 
 The output must show the running `backend` container.
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-51.png)
 
 ---
 
@@ -189,7 +188,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the completed frontend `Dockerfile`.
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-52.png)
 
 ---
 
@@ -197,7 +196,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing successful completion of the `frontend-app:latest` image build.
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-53.png)
 
 ---
 
@@ -215,7 +214,7 @@ The output must show both `backend` and `frontend` containers running. Only `fro
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-54.png)
 
 ---
 
@@ -229,7 +228,7 @@ The output must include:
 Data written: Hello from Backend!
 ```
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-55.png)
 
 ---
 
@@ -243,7 +242,7 @@ Hello from Backend!
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-56.png)
 
 ---
 
@@ -257,7 +256,7 @@ Test Data 1
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-57.png)
 
 ---
 
@@ -271,7 +270,7 @@ Test Data 2 - New Update
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-58.png)
 
 ---
 
@@ -279,7 +278,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the `frontend` and `backend` containers removed and recreated using the same `shared-data` Docker Volume.
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-59.png)
 
 ---
 
@@ -295,7 +294,7 @@ This proves that the `shared-data` Docker Volume outlived both application conta
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-60.png)
 
 ---
 
@@ -308,13 +307,36 @@ Write a short explanation covering:
 - How Task 2 proved Docker Volume persistence
 - Why Docker Volumes are commonly used for application data
 
-Write your explanation here.
+Core Architectural Differences
+
+• Docker Volumes are completely managed by Docker and stored within a dedicated, isolated area of the host filesystem (/var/lib/docker/volumes/ on Linux). They are the safest and most portable way to persist data because non-Docker processes cannot easily modify them.
+• Bind Mounts link a specific, user-defined absolute path on the host machine to a directory inside the container. They rely entirely on the host machine’s specific directory structure and allow any process on the host to read, write, or delete the files at any time.
+
+Proof of Persistence from the Lab
+
+Task 1: Bind Mount Persistence
+
+In Task 1, I mounted a standard host folder ($HOME/nginx-logs) into the Nginx container's log directory. After generating web traffic, I explicitly ran docker rm myweb to delete the container entirely. When I inspected the host machine directory afterward, the access.log and error.log files remained intact. This proved that bind mounts keep data safely written directly to my host storage independently of the container's operational lifecycle.
+
+Task 2: Docker Volume Persistence
+
+In Task 2, two separate containers (backend and frontend) shared data through the Docker Volume shared-data mounted at /data.
+
+After the backend wrote Test Data 2 - New Update into the volume and both containers were forcefully removed (docker rm -f frontend backend), recreating entirely new instances of the containers with the same volume mount restored access to the data instantly. The web browser immediately rendered Test Data 2 - New Update, proving that data stored inside a Docker Volume survives container removal and recreation.
+
+Why Docker Volumes are Preferred for Application Data
+
+• Decoupled Lifecycle: Volumes exist independently of container lifecycles, ensuring application state (databases, user uploads) is safe when containers are upgraded, restarted, or rescheduled.
+• Multi-Container Sharing: Multiple containers can safely mount the same volume simultaneously to read and write shared state.
+• Better Performance & Security: Volumes perform faster on non-Linux hosts (macOS/Windows) than bind mounts and isolate sensitive application data from unprivileged host user access.
+• Lifecycle Management via CLI: Volumes can be explicitly listed, audited, inspected, and safely pruned using built-in, native commands like docker volume ls and docker volume prune.
+• Cloud & Storage Integration: Docker Volumes easily integrate with external cloud storage drivers (e.g., AWS EBS, Azure Disk, NFS) without altering container application logic.
 
 ---
 
 # Public Application URL
 
-**Application URL:** `Add your VM public IP URL here`
+**Application URL:** `http://20.127.27.0`
 
 ---
 
@@ -330,13 +352,15 @@ Create a LinkedIn post about Docker Volumes and Bind Mounts, including one diffe
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`(https://lnkd.in/p/e8zSumYV)`
 
 ---
 
 #### LinkedIn Post Screenshot
 
 Add a screenshot of the published LinkedIn post here. Include a screenshot of the application displaying shared data.
+
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-61.png)
 
 ---
 
@@ -388,13 +412,13 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ## 📌 Resources
 
-- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
-- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
-- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
-- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
-- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
+- 🌐 DMI Official Website: <https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme>  
+- 🎓 University: <https://university.pravinmishra.com?utm_source=github&utm_medium=readme>  
+- 💬 Discord Community: <https://discord.pravinmishra.com?utm_source=github&utm_medium=readme>  
+- 📝 Blog: <https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme>  
+- ▶️ YouTube Playlist: <https://www.youtube.com/playlist?list=PLFeSNDtI4Cho>  
+- 🔗 Pravin Mishra (LinkedIn): <https://www.linkedin.com/in/pravin-mishra-aws-trainer/>  
+- 🏢 CloudAdvisory (LinkedIn): <https://www.linkedin.com/company/thecloudadvisory/>
 
 ---
 
