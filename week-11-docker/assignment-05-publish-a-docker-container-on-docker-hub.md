@@ -26,7 +26,7 @@ Add a screenshot of Docker Hub showing your newly created public repository:
 my-react-app
 ```
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-62.png)
 
 ---
 
@@ -40,7 +40,7 @@ Login Succeeded
 
 Ensure that your full name is visible and that no password, Personal Access Token, or device code is exposed.
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-63.png)
 
 ---
 
@@ -54,7 +54,7 @@ docker image ls <YOUR_DOCKERHUB_USERNAME>/my-react-app
 
 The output must show the `latest` tag.
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-64.png)
 
 ---
 
@@ -68,7 +68,7 @@ docker push <YOUR_DOCKERHUB_USERNAME>/my-react-app:latest
 
 The output must include a pushed status or image digest.
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-65.png)
 
 ---
 
@@ -76,7 +76,7 @@ Add your screenshot here.
 
 Add a screenshot of your Docker Hub repository showing the uploaded `latest` image tag.
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-66.png)
 
 ---
 
@@ -88,7 +88,7 @@ Add a screenshot of the terminal showing:
 - Successful `docker pull` output
 - `docker image ls` showing the pulled image
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-67.png)
 
 ---
 
@@ -106,7 +106,7 @@ The output must show the running `react-container` with:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-68.png)
 
 ---
 
@@ -115,18 +115,18 @@ Add your screenshot here.
 Add a browser screenshot showing the React application at:
 
 ```text
-http://<YOUR-VM-PUBLIC-IP>
+http://20.127.27.0
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-69.png)
 
 ---
 
 # Docker Hub Repository URL
 
-**Repository URL:** `Add your Docker Hub repository URL here`
+**Repository URL:** `https://hub.docker.com/repositories/bukky1105`
 
 ---
 
@@ -138,7 +138,33 @@ Write a short explanation covering:
 - Why a container registry is useful in DevOps workflows
 - Why production deployments should use versioned image tags instead of relying only on `latest`
 
-Write your explanation here.
+## Docker Hub Image Tagging Requirements
+
+Docker Hub relies on a specific image naming structure ([username]/[repository]:[tag]). For example, bukky1105/my-react-app:v1.0.0 to route and authenticate your uploads. If you attempt to push a locally built image without explicit tagging, the registry will reject it.
+• Namespace Identification: The prefix defines your exact Docker Hub username or organization account. Without this, Docker Hub has no way of knowing which account owns the target repository.
+• Registry Targeting: The tag maps your local code to a specific destination repository on the server.
+• Version Control Alignment: The tag segment ensures the upload is organized under a human-readable identifier (like v1.0.0) within that repository.
+
+## The Role of Container Registries in DevOps
+
+A container registry acts as a centralized, secure system for storing, distributing, and managing container images across automated workflows. It is a foundational component of modern CI/CD pipelines for several key reasons:
+• Single Source of Truth: It separates the build phase from the deployment phase. The CI pipeline builds and tests the image once, pushes it to the registry, and the CD pipeline pulls that exact asset to run everywhere.
+• Environment Consistency: It guarantees that the identical image layer stack verified in your staging environment is the one that lands in production, eliminating "works on my machine" deployment discrepancies.
+• Security & Operations Control: Modern registries provide native tools for automatic vulnerability scanning, access control lists (ACLs), audit logs, and image signing to maintain governance.
+
+## Why Production Deployments Must Avoid latest
+
+1. Why Production Deployments Should Use Versioned Tags Instead of latest
+
+Relying on the implicit or explicit latest tag in production creates significant operational risks:
+
+• Non-Deterministic Deployments: latest is simply a rolling pointer that updates every time a new image is pushed without a tag. Two servers pulling latest at slightly different times might end up running completely different builds of your application.
+
+• Inability to Roll Back: If a deployment fails or introduces a critical bug, Kubernetes or Docker Swarm cannot automatically roll back to a previous healthy state because the image tag string (latest) hasn't changed.
+
+• Caching Issues: Container runtimes aggressively cache images locally. If a node already has latest cached, it may fail to pull the newly pushed version, leading to inconsistent application versions across a server cluster.
+
+• No Audit Trail: Versioned tags (such as Semantic Versioning v1.2.3 or Git commit SHAs like app:a1b2c3d) provide explicit traceability, making it easy to know exactly which source code commit is running in production.
 
 ---
 
@@ -162,13 +188,13 @@ Include:
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`(https://lnkd.in/p/eWAGpwfp)`
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+[Assignment 04 Screenshot](screenshots/week-11-screenshot-70.png)
 
 ---
 
