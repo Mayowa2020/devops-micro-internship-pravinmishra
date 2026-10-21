@@ -108,6 +108,37 @@ Edit a small visible detail, re-upload it to S3, and confirm the change appears 
 ![Browser window showing the live S3 hosted portfolio website with the address bar displaying pravin-portfolio-adebukunola-oyetimehin-eu-north-1.s3-website.eu-north-1.amazonaws.com. The top bar includes a secure website URL and navigation links Home, University, Blog, Book, Program, and Contact. Below, a large hero section shows a close-up portrait of a man in a light suit with his arms crossed, surrounded by a collage of student headshots. Large white text across the image reads Empowering thousands of students to succeed.](screenshots/week-06-screenshot-08.png)
 
 ---
+# LinkedIn Post (Required)
+
+## Goal
+
+Publish a LinkedIn post sharing your experience deploying a portfolio website using Amazon S3 Static Website Hosting.
+
+Include:
+- A screenshot of your live portfolio website
+- Your live S3 Website Endpoint URL
+- A caption in your own words explaining what you deployed, what you learned about S3 hosting and public-read permissions, and any challenges you resolved
+- If you completed Task 7, describe how you updated and re-uploaded a website file
+
+Include the required hashtags, the credit note for your track, and the tags specified in the assignment guidelines.
+
+## Evidence
+
+#### LinkedIn Post URL
+
+Paste your LinkedIn post URL here:
+
+`Add your URL here`
+
+---
+
+#### Screenshot 8 — Published LinkedIn post showing your caption, live S3 website link, and portfolio screenshot
+
+Add your screenshot here.
+
+> **Privacy Note:** Do not expose credentials, billing details, or sensitive AWS account information.
+
+---
 
 # Submission Instructions
 
@@ -128,6 +159,7 @@ Edit a small visible detail, re-upload it to S3, and confirm the change appears 
 - [ ] Task 7: Optional small update re-uploaded and verified (Screenshot 7)
 - [ ] S3 Website Endpoint URL included
 - [ ] No sensitive account information exposed
+- [ ] Linkedin post published
 
 ---
 
