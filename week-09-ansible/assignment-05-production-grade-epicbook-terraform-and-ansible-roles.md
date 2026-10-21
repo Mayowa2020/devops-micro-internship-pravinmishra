@@ -90,19 +90,91 @@ Answer the following in your own words:
 
 **1. What resources did Terraform create for this assignment?**
 
-Add your answer here.
+For this deployment, Terraform created a secure, isolated two-tier cloud architecture inside Azure.
+Here is the breakdown of the specific resources constructed to run and protect the EpicBook application:
+
+1.Core Framework & Isolation
+
+• Resource Group (azurerm_resource_group): A logical cloud folder that holds, organizes, and manages the lifecycle of all the infrastructure components we deployed.
+• Virtual Network (azurerm_virtual_network): The isolated private network space in the cloud where all our components sit and securely communicate with each other.
+
+2.Network Segmentation (Subnets)
+
+• Application Subnet (azurerm_subnet): A dedicated slice of the network built specifically to house the public-facing Ubuntu web server.
+• Database Subnet (azurerm_subnet): A locked-down, private slice of the network delegated specifically to Azure's MySQL service so it remains isolated from the public internet.
+
+3.Compute Tier (The Web Server)
+
+• Linux Virtual Machine (azurerm_linux_virtual_machine): A high-performance Ubuntu Linux virtual server (sized as a Standard_D2ads_v7 instance) that handles processing and runs the EpicBook app code.
+• Public IP Address (azurerm_public_ip): A persistent, static public internet address assigned to our server so users and management tools can reach the application.
+• Network Interface Card (azurerm_network_interface): The virtual network hardware attached to the VM, allowing it to pass traffic between its private subnet and its public IP.
+
+4.Traffic Control & Security
+
+• Network Security Group (azurerm_network_security_group): A virtual firewall containing our explicit security rules. It opens port 80 globally so anyone can access the website via HTTP, and selectively opens port 22 (SSH) so you can securely log in and manage the backend.
+• NSG Association (azurerm_network_interface_security_group_association): The digital bridge that binds our custom firewall rules directly onto the virtual machine's network card.
+
+5.Managed Database Tier
+
+• MySQL Flexible Server (azurerm_mysql_flexible_server): A fully managed, secure MySQL database instance running on standalone infrastructure, configured with automatic backups and isolated networking.
+• EpicBook Database (azurerm_mysql_flexible_database): The actual, isolated SQL database catalog built inside the server cluster where EpicBook will store its live application data.
+• Private DNS Zone & Link (azurerm_private_dns_zone &_virtual_network_link): A private internal routing system that lets our Ubuntu server talk to the MySQL database securely using a friendly domain name link instead of an unstable internal IP address.
+
+---
+To understand how these components work together, it helps to look at them as a three-layer security perimeter.
+By leveraging the private network design, Terraform has ensured that your database is completely invisible to the public internet, while still allowing your web application server to talk to it securely.
+Here is exactly how these resources are linked together to protect your database:
+
+### The Subnet Shield (Network Segmentation)
+
+Instead of throwing all your infrastructure into one big bucket, Terraform explicitly split the Virtual Network into two completely isolated rooms:
+• The Frontend Subnet (snet-epicbook-app): This room houses your Ubuntu web server. It is linked directly to a Public IP, meaning it can face the outside world to receive website traffic.
+• The Backend Subnet (snet-epicbook-db): This room houses your MySQL Database. Crucially, it has no public IP address. It is entirely internal.
+
+a. Service Delegation (Locking the Door)
+
+During the subnet setup, you applied a rule called delegation to the database room. This tells Azure: "This room is exclusively reserved for the MySQL Flexible Server service. No standard computer, no hacker, and no other virtual machine can ever step inside this subnet." It creates a hard, logical boundary around the database hardware.
+
+b. The Private DNS Zone (The Invisible Bridge)
+
+Because the database has no public internet address, the Ubuntu web server needs a way to find it internally. Terraform solved this by creating a Private DNS Zone (://azure.com) and linking it to the network.
+• This act creates an encrypted, internal routing path inside Azure's private backbone.
+• Your web application server can talk to the database using a friendly private address (like mysql-epicbook-srv...), but someone trying to type that same address from their home computer on the public internet will get a "Server Not Found" error. It simply does not exist out there.
+
+The Traffic Flow in Action
+
+When a user visits your app, the traffic flows through a highly controlled chain:
+
+1. The User requests the website → Hits the Public IP → Passes through the Network Security Group Firewall (which checks if they are allowed on port 80) → Arrives at your Ubuntu VM.
+2. The Ubuntu VM processes the request and needs data → It sends an internal request over the Private DNS Link → Traverses the internal network safely → Hits the MySQL Database inside its hidden subnet.
+3. The database answers the VM, and the VM answers the user. At no point can the user jump straight to the database.
 
 ---
 
 **2. Why should you review `terraform plan` before running `terraform apply`?**
 
-Add your answer here.
+One should review terraform plan before running terraform apply for one primary reason: it acts as the ultimate safety net against accidental downtime, data loss, and unexpected cloud costs.
+Running terraform plan is like reviewing a blueprint or a receipt before you sign a contract. It tells you exactly what Terraform is about to do before it makes permanent changes to your live cloud account.
+Here is why this step is absolutely critical for any developer:
+• Prevents Accidental Destruction (Data Loss): Certain small changes in a code file (like accidentally altering a database name, dropping an availability zone flag, or modifying a subnet configuration) cannot simply be "edited" in the cloud. Instead, Azure requires the old resource to be completely destroyed and a new one built from scratch. If you don't read the plan, you might accidentally approve the deletion of your live production database.
+• Catches Syntax Errors and Typos Early: As you saw firsthand during our deployment setup with the DNS zone name error, running a plan forces Terraform to validate your code syntax and dependencies. It stops you before you send broken commands to the Azure API.
+• Eliminates Cost Surprises: Cloud resources cost money. Reviewing the plan allows you to verify that you are deploying the exact size you intended (like your upgraded high-performance Standard_D2ads_v7 instance) instead of accidentally spinning up a massive, ultra-expensive enterprise server tier that could drain your budget overnight.
+• The "Add, Change, Destroy" Scorecard: At the very bottom of every plan, Terraform gives one a concise summary (e.g., Plan: 11 to add, 0 to change, 0 to destroy.).
 
 ---
 
 **3. Why should database passwords not be shown in Terraform output?**
 
-Add your answer here.
+Database passwords must never be exposed in Terraform outputs because doing so introduces a severe security vulnerability by exposing raw administrative credentials in plaintext.
+Keeping passwords out of outputs ensures that the "keys to your castle" remain hidden from unauthorized eyes.
+Here is why keeping passwords protected is an absolute requirement:
+• Plaintext State Exposure: Terraform outputs are recorded directly into the local or remote state storage files (terraform.tfstate). If a password is printed as an output, it is written in unencrypted plaintext inside that file. Anyone with access to your project repository, CI/CD pipeline logs, or backup folders would be able to read your master database password instantly.
+• Log Ingestion Risks: When you run commands in a terminal or automated deployment pipeline (like GitHub Actions or GitLab CI), anything printed to the screen is saved in execution logs. If a password is sent to the standard output, it gets cached forever in your build histories, creating an easy target for malicious actors or audit failures.
+• Separation of Concerns: The sole job of Terraform is to build the hardware infrastructure, not to act as a password manager. Secrets should ideally be generated dynamically or injected securely through dedicated credential vaults (like Azure Key Vault or HashiCorp Vault) rather than handled as readable text outputs.
+
+How Terraform Handles This Safely
+
+Inside your code, you applied the sensitive = true argument to the mysql_admin_password variable. This tells Terraform: "I know you need this password to talk to Azure, but mask it on the screen." Instead of printing your password, Terraform will display (sensitive value) in the terminal outputs, ensuring your database remains safe and secure.
 
 ---
 

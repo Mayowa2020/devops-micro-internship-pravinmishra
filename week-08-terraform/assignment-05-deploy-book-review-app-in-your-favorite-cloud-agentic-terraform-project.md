@@ -6,8 +6,8 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ## Student Details
 
-**Full Name:** Add your full name here  
-**Cloud Platform:** AWS or Azure  
+**Full Name:** Adebukunola Oyetimehin
+**Cloud Platform:** Azure  
 **GitHub Repository URL:** Add your repository URL here  
 **Public Application URL / Load-Balancer DNS:** Add the public URL or DNS here
 

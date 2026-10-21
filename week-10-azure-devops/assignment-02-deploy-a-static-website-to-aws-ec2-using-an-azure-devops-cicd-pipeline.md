@@ -36,7 +36,7 @@ Add a screenshot of Azure Repos showing:
 * Project files
 * `index.html`
 
-Add your screenshot here.
+![Assignment 01 Screenshot](screenshots/week-10-screenshot-08png)
 
 ---
 
@@ -65,7 +65,7 @@ Add a screenshot of the saved SSH Service Connection **Overview** page showing:
 * Service Connection name
 * SSH connection type
 
-Add your screenshot here.
+![Assignment 01 Screenshot](screenshots/week-10-screenshot-09png)
 
 > Do not expose a password, SSH private key, passphrase, or another credential.
 
@@ -91,7 +91,7 @@ Add a screenshot of `azure-pipelines.yml` open in the Azure Repos editor showing
 * `CopyFilesOverSSH@0` task
 * `SSH@0` verification task
 
-Add your screenshot here.
+![Assignment 01 Screenshot](screenshots/week-10-screenshot-10.png)
 
 > Ensure that no password, SSH private key, PAT, or AWS credential is visible.
 
@@ -115,7 +115,7 @@ Add a screenshot of the successful pipeline run and log summary showing:
 * Remote-verification step completed
 * Your Full Name visible in the pipeline output
 
-Add your screenshot here.
+![Assignment 01 Screenshot](screenshots/week-10-screenshot-11.png)
 
 ---
 
@@ -136,7 +136,7 @@ Add a browser screenshot showing:
 * Your Full Name
 * Updated website content after the automatic deployment
 
-Add your screenshot here.
+![Assignment 01 Screenshot](screenshots/week-10-screenshot-12.png)
 
 ## Final Website URL
 
@@ -144,7 +144,7 @@ Add your screenshot here.
 
 Replace the placeholder with your actual website URL:
 
-[Paste your final website URL here]
+http://13.51.198.255
 
 ---
 
@@ -152,7 +152,7 @@ Replace the placeholder with your actual website URL:
 
 Write a short summary of the completed CI/CD workflow.
 
-[Write your summary here.]
+Implemented a CI/CD workflow using Azure DevOps to deploy a personalised static website to an AWS EC2 instance. The workflow uses SSH for secure remote access, verifies the deployment directory and website files, validates the Nginx configuration, reloads the service, and confirms the website responds successfully. Terraform and Ansible supported the infrastructure and configuration workflow.
 
 ---
 
@@ -167,11 +167,11 @@ Add a screenshot of your LinkedIn post containing:
 * Three to five lines describing the CI/CD workflow
 * A screenshot of the successful pipeline or deployed website
 
-Add your screenshot here.
+![Assignment 01 Screenshot](screenshots/week-10-screenshot-13.png)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here]
+https://lnkd.in/p/ekABF9QH
 
 > Do not expose AWS credentials, SSH private keys, passwords, PATs, or other sensitive information.
 

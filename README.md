@@ -139,7 +139,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | <https://www.linkedin.com/posts/bukky-oyetimehin_dmi-dmicohort3-aws-activity-7505028255293546496-rK1P?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI> | — |
 | 09 | Ansible | ⬜ Not Started | ⏳ Pending | <https://www.linkedin.com/posts/bukky-oyetimehin_dmi-devops-terraform-share-7514000852571803650-rdGG/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI> | — |
-| 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
+| 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | <https://www.linkedin.com/posts/bukky-oyetimehin_devops-aws-azuredevops-share-7518427362435186688-UF1y/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI> | — |
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | <https://www.linkedin.com/posts/bukky-oyetimehin_dmi-aws-docker-share-7514585447050821632-8P4L/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABEGQlgB1AkrO3hQl21ZivPMvp3RJYKW6KI> | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
