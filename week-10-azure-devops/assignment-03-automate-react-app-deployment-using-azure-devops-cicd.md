@@ -37,7 +37,7 @@ Add a screenshot of Azure Repos showing:
 * `main` branch
 * Project files
 
-Add your screenshot here.
+![Assignment 03 Screenshot](screenshots/week-10-screenshot-14.png).
 
 ---
 
@@ -81,7 +81,7 @@ Add a screenshot of the Azure Pipeline YAML open in the editor showing:
 * Publish stage
 * Deploy stage
 
-Add your screenshot here.
+![Assignment 03 Screenshot](screenshots/week-10-screenshot-15.png).
 
 > Do not expose passwords, private keys, tokens, or cloud credentials.
 
@@ -104,7 +104,7 @@ Add a screenshot of one Azure DevOps pipeline run showing all four stages succee
 * Publish
 * Deploy
 
-Add your screenshot here.
+![Assignment 01 Screenshot](screenshots/week-10-screenshot-16.png).
 
 ---
 
@@ -122,7 +122,7 @@ Add a screenshot of the pipeline SSH verification log or VM terminal showing the
 
 `/var/www/html`
 
-Add your screenshot here.
+![Assignment 01 Screenshot](screenshots/week-10-screenshot-17.png).
 
 ---
 
@@ -143,7 +143,7 @@ Add a browser screenshot showing:
 * Your Full Name
 * Deployment date
 
-Add your screenshot here.
+![Assignment 01 Screenshot](screenshots/week-10-screenshot-18.png).
 
 ## Final Application URL
 
@@ -151,7 +151,7 @@ Add your screenshot here.
 
 Replace the placeholder and paste your final application URL below:
 
-[Paste your final application URL here.]
+<http://13.60.9.70>
 
 ---
 
@@ -159,7 +159,7 @@ Replace the placeholder and paste your final application URL below:
 
 Write a short explanation of the CI/CD workflow you created.
 
-[Write your summary here.]
+The CI/CD workflow uses Azure DevOps to automate the deployment of a React website to an AWS EC2 instance. When changes are committed to the repository, the pipeline builds the React application and prepares the production files. It then transfers the build output to the EC2 instance using an SSH service connection, backs up the existing website files, and deploys the updated files to Nginx’s web root. Finally, the pipeline verifies the deployed files and checks that Nginx is running, making the deployment process more consistent, repeatable, and efficient. 🚀
 
 ---
 
@@ -174,11 +174,11 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-Add your screenshot here.
+![Assignment 01 Screenshot](screenshots/week-10-screenshot-19.png).
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+<https://lnkd.in/p/eJzVAVtK>
 
 > Do not expose VM passwords, tokens, private keys, cloud credentials, or other sensitive information.
 
